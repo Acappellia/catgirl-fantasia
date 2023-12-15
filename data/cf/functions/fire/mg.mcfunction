@@ -2,13 +2,11 @@ execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0
 playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.5 2
 playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.5 0.5
 
-execute store result score #random cf run random value 1..6
-execute if score #random cf matches 1 run tp @s ~ ~ ~ ~ ~-4
-execute if score #random cf matches 2 run tp @s ~ ~ ~ ~ ~-1.5
-execute if score #random cf matches 3 run tp @s ~ ~ ~ ~1 ~-1
-execute if score #random cf matches 4 run tp @s ~ ~ ~ ~-1.5 ~-1
-execute if score #random cf matches 5 run tp @s ~ ~ ~ ~0.6 ~0.2
-execute if score #random cf matches 6 run tp @s ~ ~ ~ ~-0.5 ~0.5
+execute store result score @s player_recoil_type run random value 1..3
+execute if score @s player_recoil_type matches 1 run tp @s ~ ~ ~ ~0.4 ~-0.6
+execute if score @s player_recoil_type matches 2 run tp @s ~ ~ ~ ~0.2 ~-0.8
+execute if score @s player_recoil_type matches 3 run tp @s ~ ~ ~ ~ ~-1
+scoreboard players set @s player_recoil_time -10
 effect give @s slowness 2 1 true
 
 tag @s add firing
