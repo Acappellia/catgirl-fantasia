@@ -9,4 +9,4 @@ execute if score #check_hand cf matches 1 run loot give @s mine 0 2 0 stone{drop
 playsound block.iron_door.open player @s ~ ~ ~ 1 0.6
 
 tag @s add reloading
-scoreboard players set @s player_reload_smg -10
+scoreboard players set @s player_reload_smg -6

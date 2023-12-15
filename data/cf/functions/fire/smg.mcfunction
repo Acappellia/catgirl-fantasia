@@ -5,10 +5,9 @@ execute store result score #random cf run random value 1..6
 execute if score #random cf matches 1 run tp @s ~ ~ ~ ~ ~-2
 execute if score #random cf matches 2 run tp @s ~ ~ ~ ~ ~-1.5
 execute if score #random cf matches 3 run tp @s ~ ~ ~ ~1 ~-1
-execute if score #random cf matches 4 run tp @s ~ ~ ~ ~1 ~-1
+execute if score #random cf matches 4 run tp @s ~ ~ ~ ~0.5 ~-1
 execute if score #random cf matches 5 run tp @s ~ ~ ~ ~0.5 ~-0.5
 execute if score #random cf matches 6 run tp @s ~ ~ ~ ~-0.5 ~-0.5
-effect give @s slowness 1 0 true
 
 tag @s add firing
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run function cf:fire/smg_ray

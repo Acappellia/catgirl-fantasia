@@ -8,7 +8,8 @@ effect give @s slowness 1 2 true
 execute store result score #damage_dealt cf run random value 9..11
 scoreboard players operation @s target_health -= #damage_dealt cf
 execute if score @s target_health matches ..-100 run function cf:fire/kill
-#avg dps 200
+#avg single dps 200
+#no group dmg
 
 damage @s 0.01
 summon area_effect_cloud ~ ~0.4 ~ {Duration:10,CustomName:'[{"text":"*","color": "light_purple"}]',CustomNameVisible:true}

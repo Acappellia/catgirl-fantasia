@@ -5,6 +5,8 @@ execute unless data storage cf:tmp OffhandItem.tag.cf_gun run function cf:reload
 
 execute if data storage cf:tmp OffhandItem.tag.cf_rifle run function cf:reload/trigger_rifle
 execute if data storage cf:tmp OffhandItem.tag.cf_smg run function cf:reload/trigger_smg
+execute if data storage cf:tmp OffhandItem.tag.cf_mg run function cf:reload/trigger_mg
+execute if data storage cf:tmp OffhandItem.tag.cf_revolver run function cf:reload/trigger_revolver
 
 item replace entity @s weapon.offhand with air
 advancement revoke @s only cf:reload
