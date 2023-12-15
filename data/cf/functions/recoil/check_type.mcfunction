@@ -6,3 +6,5 @@ execute if score @s player_recoil_type matches 5 run function cf:recoil/type5
 execute if score @s player_recoil_type matches 6 run function cf:recoil/type6
 execute if score @s player_recoil_type matches 7 run function cf:recoil/type7
 execute if score @s player_recoil_type matches 8 run function cf:recoil/type8
+execute if score @s player_recoil_type matches 9 run function cf:recoil/type9
+execute if score @s player_recoil_type matches 10 run function cf:recoil/type10

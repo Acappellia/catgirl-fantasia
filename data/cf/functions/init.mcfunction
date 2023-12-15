@@ -17,6 +17,7 @@ scoreboard objectives add player_reload_smg dummy
 scoreboard objectives add player_reload_mg dummy
 scoreboard objectives add player_reload_revolver dummy
 scoreboard objectives add player_reload_shotgun dummy
+scoreboard objectives add player_reload_sr dummy
 
 scoreboard objectives add player_ammo_rifle dummy
 scoreboard objectives add player_ammo_smg dummy

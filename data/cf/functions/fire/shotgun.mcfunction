@@ -4,9 +4,9 @@ playsound minecraft:entity.zombie.attack_wooden_door master @a ~ ~ ~ 0.8 1.5
 playsound minecraft:block.iron_door.close master @a ~ ~ ~ 1 0.6
 scoreboard players set @s player_shotgun_bolt -20
 
-execute store result score @s player_recoil_type run random value 7..8
-execute if score @s player_recoil_type matches 7 run tp @s ~ ~ ~ ~1 ~-2
-execute if score @s player_recoil_type matches 8 run tp @s ~ ~ ~ ~0.3 ~-4
+execute store result score @s player_recoil_type run random value 9..10
+execute if score @s player_recoil_type matches 9 run tp @s ~ ~ ~ ~0.7 ~-3
+execute if score @s player_recoil_type matches 10 run tp @s ~ ~ ~ ~2 ~-2.5
 scoreboard players set @s player_recoil_time -10
 
 tag @s add firing

@@ -16,3 +16,6 @@ execute if score @s player_reload_revolver matches 0.. run function cf:reload/re
 
 execute if data storage cf:tmp SelectedItem.tag.cf_shotgun_reload run scoreboard players add @s player_reload_shotgun 1
 execute if score @s player_reload_shotgun matches 0.. run function cf:reload/shotgun_finish
+
+execute if data storage cf:tmp SelectedItem.tag.cf_sr_reload run scoreboard players add @s player_reload_sr 1
+execute if score @s player_reload_sr matches 0.. run function cf:reload/sr_finish
