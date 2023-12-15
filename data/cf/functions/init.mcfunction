@@ -9,7 +9,6 @@ scoreboard objectives add player_firecd custom:time_since_death
 scoreboard objectives add player_recoil_time custom:time_since_death
 scoreboard objectives add player_recoil_type dummy
 
-
 scoreboard objectives add player_burst_smg dummy
 scoreboard objectives add player_burst_mg dummy
 
@@ -17,11 +16,15 @@ scoreboard objectives add player_reload_rifle dummy
 scoreboard objectives add player_reload_smg dummy
 scoreboard objectives add player_reload_mg dummy
 scoreboard objectives add player_reload_revolver dummy
+scoreboard objectives add player_reload_shotgun dummy
 
 scoreboard objectives add player_ammo_rifle dummy
 scoreboard objectives add player_ammo_smg dummy
 scoreboard objectives add player_ammo_mg dummy
 scoreboard objectives add player_ammo_revolver dummy
+scoreboard objectives add player_ammo_shotgun dummy
+
+scoreboard objectives add player_shotgun_bolt custom:time_since_death
 
 scoreboard objectives add target_health dummy
 
