@@ -1,5 +1,5 @@
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 1
-playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.5 1.6
+playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 1 1.6
 
 execute store result score @s player_recoil_type run random value 4..6
 execute if score @s player_recoil_type matches 4 run tp @s ~ ~ ~ ~0.5 ~-0.5

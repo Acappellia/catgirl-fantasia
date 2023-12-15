@@ -1,7 +1,6 @@
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 4
-playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 0.5
-playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 1 2
-playsound minecraft:entity.lightning_bolt.impact player @a ~ ~ ~ 1 0.5
+playsound minecraft:entity.warden.sonic_boom player @a ~ ~ ~ 3 1
+playsound minecraft:entity.warden.attack_impact player @a ~ ~ ~ 3 1
 playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.8 1.5
 
 execute store result score @s player_recoil_type run random value 9..10

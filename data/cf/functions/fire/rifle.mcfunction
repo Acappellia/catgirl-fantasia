@@ -1,7 +1,8 @@
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 4
-playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 0.7
+playsound minecraft:entity.firework_rocket.large_blast player @a ~ ~ ~ 1 1
 playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.8 1.5
-playsound minecraft:block.iron_door.close player @a ~ ~ ~ 1 0.6
+playsound minecraft:block.iron_door.close player @a ~ ~ ~ 1 0.5
+playsound minecraft:block.iron_trapdoor.open player @a ~ ~ ~ 1 0.5
 
 execute store result score @s player_recoil_type run random value 1..3
 execute if score @s player_recoil_type matches 1 run tp @s ~ ~ ~ ~0.4 ~-0.6

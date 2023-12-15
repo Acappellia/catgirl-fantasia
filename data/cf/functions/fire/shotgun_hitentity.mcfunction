@@ -1,7 +1,7 @@
 execute positioned ~ ~-0.8 ~ unless predicate cf:hitbox_check run return -1
 
 particle block nether_wart_block ~ ~ ~ 0 0 0 0.1 5
-execute as @a[distance=..15,tag=firing] at @s run playsound block.note_block.snare player @s ~ ~ ~ 1 1.4
+execute as @a[distance=..15,tag=firing] at @s run playsound ui.button.click player @s ~ ~ ~ 1 2
 tag @a[distance=..15,tag=firing] add hit
 
 effect give @s slowness 3 3 true
