@@ -6,6 +6,9 @@ setblock 0 2 0 shulker_box
 scoreboard objectives add cf dummy
 scoreboard objectives add player_fire used:warped_fungus_on_a_stick
 scoreboard objectives add player_firecd custom:time_since_death
+scoreboard objectives add player_recoil_time custom:time_since_death
+scoreboard objectives add player_recoil_type dummy
+
 
 scoreboard objectives add player_burst_smg dummy
 scoreboard objectives add player_burst_mg dummy

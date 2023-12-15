@@ -1,4 +1,4 @@
-execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 1
+execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 6
 playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.5 1.1
 playsound entity.blaze.shoot player @a ~ ~ ~ 0.5 1.5
 
