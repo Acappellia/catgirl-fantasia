@@ -1,3 +1,7 @@
+execute if score @s player_ammo_smg matches ..0 run playsound ui.button.click player @s ~ ~ ~ 0.5 1.4
+execute if score @s player_ammo_smg matches ..0 run scoreboard players set @s player_burst_smg 0
+execute if score @s player_ammo_smg matches ..0 run return -1
+
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 1
 playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 1 1.6
 
@@ -13,6 +17,6 @@ tag @s remove hit
 tag @s remove firing
 
 scoreboard players remove @s player_ammo_smg 1
-execute if score @s player_ammo_smg matches ..0 run function cf:reload/smg
+execute if score @s player_ammo_smg matches ..0 if score @s player_bammo_smg matches 1.. run function cf:reload/smg
 title @s title ""
-title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_smg"}}, " / 50"]
+title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_smg"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_smg"}}]

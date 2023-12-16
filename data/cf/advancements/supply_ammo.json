@@ -5,12 +5,12 @@
             "conditions": {
                 "entity": {
                     "type": "interaction",
-                    "nbt": "{Tags:[\"cf_gun1\"]}"
+                    "nbt": "{Tags:[\"cf_ammo\"]}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "cf:intearct/gun1"
+        "function": "cf:supply/ammo_interact"
     }
 }

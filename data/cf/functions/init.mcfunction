@@ -24,6 +24,14 @@ scoreboard objectives add player_ammo_smg dummy
 scoreboard objectives add player_ammo_mg dummy
 scoreboard objectives add player_ammo_revolver dummy
 scoreboard objectives add player_ammo_shotgun dummy
+scoreboard objectives add player_ammo_sr dummy
+
+scoreboard objectives add player_bammo_rifle dummy
+scoreboard objectives add player_bammo_smg dummy
+scoreboard objectives add player_bammo_mg dummy
+scoreboard objectives add player_bammo_revolver dummy
+scoreboard objectives add player_bammo_shotgun dummy
+scoreboard objectives add player_bammo_sr dummy
 
 scoreboard objectives add player_shotgun_bolt custom:time_since_death
 

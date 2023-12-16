@@ -1,3 +1,6 @@
+execute if score @s player_ammo_revolver matches ..0 run playsound ui.button.click player @s ~ ~ ~ 0.5 1.4
+execute if score @s player_ammo_revolver matches ..0 run return -1
+
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 3
 playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 1 1.5
 playsound minecraft:entity.firework_rocket.large_blast_far player @a ~ ~ ~ 1 0.5
@@ -14,6 +17,6 @@ tag @s remove hit
 tag @s remove firing
 
 scoreboard players remove @s player_ammo_revolver 1
-execute if score @s player_ammo_revolver matches ..0 run function cf:reload/revolver
+execute if score @s player_ammo_revolver matches ..0 if score @s player_bammo_revolver matches 1.. run function cf:reload/revolver
 title @s title ""
-title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_revolver"}}, " / 6"]
+title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_revolver"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_revolver"}}]

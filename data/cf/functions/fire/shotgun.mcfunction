@@ -1,3 +1,6 @@
+execute if score @s player_ammo_shotgun matches ..0 run playsound ui.button.click player @s ~ ~ ~ 0.5 1.4
+execute if score @s player_ammo_shotgun matches ..0 run return -1
+
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 6
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 1 0.7
 playsound minecraft:entity.zombie.attack_wooden_door master @a ~ ~ ~ 0.8 1.5
@@ -23,8 +26,8 @@ tag @s remove hit
 tag @s remove firing
 
 scoreboard players remove @s player_ammo_shotgun 1
-execute if score @s player_ammo_shotgun matches ..0 run function cf:reload/shotgun
+execute if score @s player_ammo_shotgun matches ..0 if score @s player_bammo_shotgun matches 1.. run function cf:reload/shotgun
 title @s title ""
-title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_shotgun"}}, " / 6"]
+title @s subtitle ["                                             AMMO: ",{"score":{"name": "@s","objective": "player_ammo_shotgun"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_shotgun"}}]
 
 scoreboard players set @s player_firecd -24
