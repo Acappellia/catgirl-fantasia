@@ -1,5 +1,5 @@
-item replace block 0 2 0 container.0 with minecraft:warped_fungus_on_a_stick{CustomModelData:1,cf_gun:1,cf_shotgun:1}
-execute if score @s player_ammo_shotgun matches ..5 if score @s player_bammo_shotgun matches 1.. run item replace block 0 2 0 container.0 with minecraft:warped_fungus_on_a_stick{CustomModelData:1,cf_gun_reload:1,cf_shotgun_reload:1}
+item replace block 0 2 0 container.0 with minecraft:warped_fungus_on_a_stick{CustomModelData:11,cf_gun:1,cf_shotgun:1}
+execute if score @s player_ammo_shotgun matches ..5 if score @s player_bammo_shotgun matches 1.. run item replace block 0 2 0 container.0 with minecraft:warped_fungus_on_a_stick{CustomModelData:12,cf_gun_reload:1,cf_shotgun_reload:1}
 
 execute store success score #check_hand cf if data entity @s SelectedItem.Count
 execute unless score #check_hand cf matches 1 run item replace entity @s weapon.mainhand from block 0 2 0 container.0
