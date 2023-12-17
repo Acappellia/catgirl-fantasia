@@ -1,6 +1,7 @@
 title @s times 0t 5t 0t
 title @s title ""
 title @s subtitle "RELOADING!"
+execute if predicate cf:40_chance run playsound item.armor.equip_chain player @s ~ ~ ~ 1 0.6
 
 execute if data storage cf:tmp SelectedItem.tag.cf_rifle_reload run scoreboard players add @s player_reload_rifle 1
 execute if score @s player_reload_rifle matches 0.. run function cf:reload/rifle_finish
