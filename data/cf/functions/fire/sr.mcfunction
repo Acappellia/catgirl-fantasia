@@ -2,7 +2,7 @@ execute if score @s player_ammo_sr matches ..0 run playsound ui.button.click pla
 execute if score @s player_ammo_sr matches ..0 run return -1
 
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 10
-execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle bubble_pop ~ ~ ~ 0 0 0 0 1
+execute anchored eyes positioned ^-0.3 ^-0.1 ^0.6 run particle bubble_pop ~ ~ ~ 0 0 0 0 1
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle poof ~ ~ ~ 0 0 0 0.05 5
 playsound minecraft:entity.warden.sonic_boom player @a ~ ~ ~ 3 1
 playsound minecraft:entity.warden.attack_impact player @a ~ ~ ~ 3 1

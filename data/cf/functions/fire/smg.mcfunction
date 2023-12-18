@@ -3,7 +3,7 @@ execute if score @s player_ammo_smg matches ..0 run scoreboard players set @s pl
 execute if score @s player_ammo_smg matches ..0 run return -1
 
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 1
-execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle bubble_pop ~ ~ ~ 0 0 0 0 1
+execute anchored eyes positioned ^-0.3 ^-0.1 ^0.6 run particle bubble_pop ~ ~ ~ 0 0 0 0 1
 execute anchored eyes positioned ^-0.2 ^-0.05 ^0.2 run particle lava ~ ~ ~ 0 0 0 0 1
 playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 1 1.6
 
