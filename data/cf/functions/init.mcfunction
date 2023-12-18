@@ -54,6 +54,7 @@ scoreboard objectives add player_shotgun_bolt custom:time_since_death
 
 scoreboard objectives add target_health dummy
 scoreboard objectives add target_maxhealth dummy
+scoreboard objectives add target_regencd custom:time_since_death
 scoreboard objectives add target_respawncd custom:time_since_death
 
 function cf:slowtick

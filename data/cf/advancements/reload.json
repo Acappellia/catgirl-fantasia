@@ -1,7 +1,12 @@
 {
     "criteria": {
         "reload":{
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "team": "solder"
+                }
+            }
         }
     },
     "rewards": {

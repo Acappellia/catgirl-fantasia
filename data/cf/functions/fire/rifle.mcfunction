@@ -2,6 +2,7 @@ execute if score @s player_ammo_rifle matches ..0 run playsound ui.button.click 
 execute if score @s player_ammo_rifle matches ..0 run return -1
 
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle smoke ~ ~ ~ 0 0 0 0.05 4
+execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run particle bubble_pop ~ ~ ~ 0 0 0 0 1
 execute anchored eyes positioned ^-0.2 ^-0.05 ^0.2 run particle lava ~ ~ ~ 0 0 0 0 1
 playsound minecraft:entity.firework_rocket.large_blast player @a ~ ~ ~ 1 1
 playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.8 1.5

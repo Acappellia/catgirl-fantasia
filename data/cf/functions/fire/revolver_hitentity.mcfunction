@@ -7,6 +7,7 @@ tag @a[distance=..30,tag=firing] add hit
 effect give @s slowness 1 2 true
 execute store result score #damage_dealt cf run random value 49..55
 scoreboard players operation @s target_health -= #damage_dealt cf
+function cf:neko/hit
 execute if score @s target_health < @s target_maxhealth run function cf:fire/kill
 #dmg per mag 312
 #no group dmg

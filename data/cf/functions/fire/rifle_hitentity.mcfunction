@@ -8,6 +8,7 @@ tag @s add hit
 effect give @s slowness 1 2 true
 execute store result score #damage_dealt cf run random value 21..23
 scoreboard players operation @s target_health -= #damage_dealt cf
+function cf:neko/hit
 execute if score @s target_health < @s target_maxhealth run function cf:fire/kill
 #avg single dps 110
 #avg group dps 172
