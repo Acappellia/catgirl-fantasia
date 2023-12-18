@@ -5,7 +5,7 @@ execute as @a[distance=..30,tag=firing] at @s run playsound ui.button.click play
 execute if predicate cf:60_chance run tag @a[distance=..30,tag=firing] add hit
 tag @s add hit
 
-effect give @s slowness 4 2 true
+effect give @s slowness 3 3 true
 execute store result score #damage_dealt cf run random value 21..23
 scoreboard players operation @s target_health -= #damage_dealt cf
 function cf:neko/hit
