@@ -7,7 +7,7 @@ tag @s add hit
 effect give @s slowness 2 3 true
 execute store result score #damage_dealt cf run random value 290..310
 scoreboard players operation @s target_health -= #damage_dealt cf
-execute if score @s target_health matches ..-100 run function cf:fire/kill
+execute if score @s target_health < @s target_maxhealth run function cf:fire/kill
 #single shot dmg 300
 
 damage @s 0.01
