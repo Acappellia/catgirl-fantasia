@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "sprint": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "snowball"
+                    ],
+                    "nbt": "{cf_neko_sprint:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cf:skills/sprint"
+    }
+}
