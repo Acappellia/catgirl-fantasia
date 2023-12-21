@@ -8,17 +8,17 @@ item replace entity @s armor.chest with iron_chestplate{Enchantments:[{id:"minec
 item replace entity @s armor.legs with iron_leggings{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 item replace entity @s armor.feet with iron_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 
-scoreboard players set @a player_ammo_rifle 35
-scoreboard players set @a player_bammo_rifle 210
+scoreboard players set @s player_ammo_rifle 35
+scoreboard players set @s player_bammo_rifle 210
 
-scoreboard players set @a player_ammo_mg 0
-scoreboard players set @a player_ammo_revolver 0
-scoreboard players set @a player_ammo_shotgun 0
-scoreboard players set @a player_ammo_smg 0
-scoreboard players set @a player_ammo_sr 0
+scoreboard players set @s player_ammo_mg 0
+scoreboard players set @s player_ammo_revolver 0
+scoreboard players set @s player_ammo_shotgun 0
+scoreboard players set @s player_ammo_smg 0
+scoreboard players set @s player_ammo_sr 0
 
-scoreboard players set @a player_bammo_mg 0
-scoreboard players set @a player_bammo_revolver 0
-scoreboard players set @a player_bammo_shotgun 0
-scoreboard players set @a player_bammo_smg 0
-scoreboard players set @a player_bammo_sr 0
+scoreboard players set @s player_bammo_mg 0
+scoreboard players set @s player_bammo_revolver 0
+scoreboard players set @s player_bammo_shotgun 0
+scoreboard players set @s player_bammo_smg 0
+scoreboard players set @s player_bammo_sr 0
