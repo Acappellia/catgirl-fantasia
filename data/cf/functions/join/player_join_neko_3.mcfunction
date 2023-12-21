@@ -1,5 +1,8 @@
 team join neko @s
 clear @s
+tag @s remove killed
+effect clear @s invisibility
+effect clear @s weakness
 scoreboard players set @s target_nekotype 3
 scoreboard players set @s target_health 2000
 scoreboard players set @s target_maxhealth 2000

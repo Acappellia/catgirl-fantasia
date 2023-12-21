@@ -6,6 +6,9 @@
                 "entity": {
                     "type": "interaction",
                     "nbt": "{Tags:[\"cf_gun\"]}"
+                },
+                "player": {
+                    "team": "solder"
                 }
             }
         }
