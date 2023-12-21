@@ -6,3 +6,15 @@ give @s warped_fungus_on_a_stick{CustomModelData:7,cf_gun:1,cf_smg:1}
 
 scoreboard players set @a player_ammo_smg 50
 scoreboard players set @a player_bammo_smg 600
+
+scoreboard players set @a player_ammo_mg 0
+scoreboard players set @a player_ammo_revolver 0
+scoreboard players set @a player_ammo_rifle 0
+scoreboard players set @a player_ammo_shotgun 0
+scoreboard players set @a player_ammo_sr 0
+
+scoreboard players set @a player_bammo_mg 0
+scoreboard players set @a player_bammo_revolver 0
+scoreboard players set @a player_bammo_rifle 0
+scoreboard players set @a player_bammo_shotgun 0
+scoreboard players set @a player_bammo_sr 0
