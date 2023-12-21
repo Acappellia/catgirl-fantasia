@@ -7,4 +7,6 @@ execute as @a[team=solder,scores={player_shotgun_bolt=-1}] at @s run function cf
 
 execute as @a[team=neko,scores={player_fire=1..,player_firecd=0..}] at @s run function cf:neko/check_atk
 
+kill @e[type=arrow,nbt={inGround:1b}]
+
 execute if score #game_start cf matches 1 as @a unless score @s ingame matches 1 run function cf:spec/set_spec

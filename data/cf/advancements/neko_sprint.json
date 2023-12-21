@@ -1,12 +1,9 @@
 {
     "criteria": {
         "sprint": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:shot_crossbow",
             "conditions": {
                 "item": {
-                    "items": [
-                        "snowball"
-                    ],
                     "nbt": "{cf_neko_sprint:1}"
                 }
             }
