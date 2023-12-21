@@ -4,7 +4,8 @@ particle block nether_wart_block ~ ~ ~ 0 0 0 0.1 5
 execute as @a[distance=..15,tag=firing] at @s run playsound ui.button.click player @s ~ ~ ~ 1 2
 tag @a[distance=..15,tag=firing] add hit
 
-effect give @s slowness 3 3 true
+effect give @s slowness 4 4 true
+effect give @s slowness 2 5 true
 execute store result score #damage_dealt cf run random value 28..32
 scoreboard players operation @s target_health -= #damage_dealt cf
 function cf:neko/hit

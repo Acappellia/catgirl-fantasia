@@ -1,5 +1,5 @@
 advancement revoke @s only cf:neko_sprint
-item replace entity @s weapon.mainhand with minecraft:crossbow{CustomModelData:1,cf_neko_sprint:1,Charged:1b,ChargedProjectiles:[{id:"arrow",Count:1b,tag:{neko_sprint:1}}]}
+item replace entity @s weapon.mainhand with minecraft:crossbow{CustomModelData:1,cf_neko_sprint:1,Charged:1b,ChargedProjectiles:[{id:"arrow",Count:1b}]}
 execute if entity @s[team=!neko] run function cf:skills/sprint_invalid
 execute if entity @s[team=!neko] run return -1
 
