@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "reload":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "team": "neko"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cf:neko/set_offhand"
+    }
+}

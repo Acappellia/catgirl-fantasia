@@ -2,6 +2,8 @@
 
 team add solder "战术小队"
 team add neko "喵喵"
+team join solder #solder
+team join neko #neko
 
 team modify solder collisionRule pushOtherTeams
 team modify solder color gray
@@ -20,11 +22,15 @@ team modify neko prefix "⚗ "
 forceload add 0 0 0 0
 setblock 0 2 0 shulker_box
 
+scoreboard objectives add ingame dummy
+
 scoreboard objectives add cf dummy
 scoreboard objectives add player_fire used:warped_fungus_on_a_stick
 scoreboard objectives add player_firecd custom:time_since_death
 scoreboard objectives add player_recoil_time custom:time_since_death
 scoreboard objectives add player_recoil_type dummy
+scoreboard objectives add player_health dummy
+scoreboard objectives add player_respawn_cd custom:time_since_death
 
 scoreboard objectives add player_burst_smg dummy
 scoreboard objectives add player_burst_mg dummy
@@ -56,6 +62,7 @@ scoreboard objectives add target_health dummy
 scoreboard objectives add target_maxhealth dummy
 scoreboard objectives add target_regencd custom:time_since_death
 scoreboard objectives add target_respawncd custom:time_since_death
+scoreboard objectives add target_nekotype dummy
 
 function cf:slowtick
 function cf:3gt_tick
