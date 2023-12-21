@@ -3,9 +3,24 @@
         "reload":{
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": {
-                    "team": "neko"
-                }
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "target_respawncd":{
+                                "min": 0
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "neko"
+                        }
+                    }
+                ]
             }
         }
     },

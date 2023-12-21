@@ -5,8 +5,8 @@ scoreboard players set @s player_health 3
 give @s warped_fungus_on_a_stick{CustomModelData:11,cf_gun:1,cf_shotgun:1}
 item replace entity @s armor.head with gold_ingot{CustomModelData:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 item replace entity @s armor.chest with iron_chestplate{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
-item replace entity @s armor.head with iron_leggings{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
-item replace entity @s armor.head with iron_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+item replace entity @s armor.legs with iron_leggings{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+item replace entity @s armor.feet with iron_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 
 scoreboard players set @a player_ammo_shotgun 6
 scoreboard players set @a player_bammo_shotgun 72
