@@ -1,5 +1,4 @@
 advancement revoke @s only cf:neko_sprint
-item replace entity @s weapon.mainhand with minecraft:crossbow{CustomModelData:1,cf_neko_sprint:1,Charged:1b,ChargedProjectiles:[{id:"arrow",Count:1b}]}
 execute if entity @s[team=!neko] run function cf:skills/sprint_invalid
 execute if entity @s[team=!neko] run return -1
 
@@ -16,3 +15,5 @@ execute store result storage cf:tmp Motion[2] double 0.003 run scoreboard player
 data modify entity @e[type=arrow,distance=..2,limit=1,sort=nearest] Motion set from storage cf:tmp Motion
 data modify entity @e[type=arrow,distance=..2,limit=1,sort=nearest] damage set value 0d
 ride @s mount @e[type=arrow,distance=..2,limit=1,sort=nearest]
+
+item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103}

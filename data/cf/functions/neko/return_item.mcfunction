@@ -1,6 +1,7 @@
 #define score_holder #check_hand
 
 clear @s warped_fungus_on_a_stick{cf_pow_offhand:1}
+execute anchored eyes positioned ~ ~ ~ as @e[type=item,distance=..1] if data entity @s Item.tag.cf_pow_offhand run kill @s
 
 item replace block 0 2 0 container.0 with air
 item replace block 0 2 0 container.0 from entity @s weapon.offhand

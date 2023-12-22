@@ -64,6 +64,11 @@ scoreboard objectives add target_regencd custom:time_since_death
 scoreboard objectives add target_respawncd custom:time_since_death
 scoreboard objectives add target_nekotype dummy
 
+scoreboard objectives add neko_selection dummy
+scoreboard objectives add solder_selection dummy
+
+scoreboard objectives add stats_playerdmg dummy
+
 function cf:slowtick
 function cf:3gt_tick
 function cf:2gt_tick

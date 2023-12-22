@@ -2,6 +2,7 @@ scoreboard players reset @s player_fire
 
 data remove storage cf:tmp SelectedItem
 data modify storage cf:tmp SelectedItem set from entity @s SelectedItem
+execute if data storage cf:tmp SelectedItem.tag.cf_neko_heal run function cf:skills/heal
 execute unless data storage cf:tmp SelectedItem.tag.cf_pow run return -1
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 0.8
