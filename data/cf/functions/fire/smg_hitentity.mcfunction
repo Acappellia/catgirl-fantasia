@@ -13,5 +13,5 @@ execute if score @s target_health matches ..0 run function cf:fire/kill
 #avg single dps 200
 #no group dmg
 
-damage @s 0.01
+damage @s 0.01 generic by @a[distance=..15,tag=firing,limit=1]
 summon area_effect_cloud ~ ~0.4 ~ {Duration:10,CustomName:'[{"text":"*","color": "light_purple"}]',CustomNameVisible:true}

@@ -6,6 +6,10 @@ scoreboard players set @s target_nekotype 2
 scoreboard players set @s target_health 2000
 scoreboard players set @s target_maxhealth 2000
 
+xp set @s 100 levels
+xp set @s 741 points
+xp set @s 0 levels
+
 item replace entity @s hotbar.0 with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:102}
 item replace entity @s hotbar.1 with warped_fungus_on_a_stick{CustomModelData:105,cf_neko_heal:1}
 item replace entity @s hotbar.2 with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:102}

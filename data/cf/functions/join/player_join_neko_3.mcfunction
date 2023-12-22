@@ -7,6 +7,10 @@ scoreboard players set @s target_health 1500
 scoreboard players set @s target_maxhealth 1500
 attribute @s generic.movement_speed modifier add 0-0-0-0-0 "neko_speed" 0.15 multiply
 
+xp set @s 100 levels
+xp set @s 741 points
+xp set @s 0 levels
+
 item replace entity @s hotbar.0 with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103}
 item replace entity @s hotbar.1 with minecraft:crossbow{CustomModelData:1,cf_neko_sprint:1,Charged:1b,ChargedProjectiles:[{id:"arrow",Count:1b}]}
 item replace entity @s hotbar.2 with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103}

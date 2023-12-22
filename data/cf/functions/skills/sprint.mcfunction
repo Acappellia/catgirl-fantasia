@@ -1,6 +1,6 @@
 advancement revoke @s only cf:neko_sprint
-execute if entity @s[team=!neko] run function cf:skills/sprint_invalid
-execute if entity @s[team=!neko] run return -1
+execute unless entity @s[team=neko,scores={target_nekotype=3}] run function cf:skills/sprint_invalid
+execute unless entity @s[team=neko,scores={target_nekotype=3}] run return -1
 
 #define score_holder #motion_tmp
 playsound entity.cat.ambient player @a ~ ~ ~ 1 0.8

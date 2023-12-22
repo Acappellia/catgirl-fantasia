@@ -2,5 +2,6 @@
 
 effect give @a resistance infinite 9 true
 effect give @a saturation infinite 9 true
+effect give @a haste infinite 127 true
 
 schedule function cf:slowtick 30t

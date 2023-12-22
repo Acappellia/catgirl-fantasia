@@ -8,6 +8,9 @@ item replace entity @s armor.chest with iron_chestplate{Enchantments:[{id:"minec
 item replace entity @s armor.legs with iron_leggings{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 item replace entity @s armor.feet with iron_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 
+xp set @s 0 points
+xp set @s 0 levels
+
 scoreboard players set @s player_ammo_smg 50
 scoreboard players set @s player_bammo_smg 600
 
