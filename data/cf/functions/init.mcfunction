@@ -1,5 +1,12 @@
 #define storage cf:tmp
 
+gamerule fallDamage false
+gamerule doMobSpawning false
+gamerule doDaylightCycle false
+gamerule doFireTick false
+gamerule doWeatherCycle false
+gamerule keepInventory true
+
 team add solder "战术小队"
 team add neko "喵喵"
 team join solder #solder
