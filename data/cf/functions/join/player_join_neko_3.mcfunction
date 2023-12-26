@@ -5,6 +5,8 @@ effect clear @s weakness
 scoreboard players set @s target_nekotype 3
 scoreboard players set @s target_health 1500
 scoreboard players set @s target_maxhealth 1500
+execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_health 3500
+execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_maxhealth 3500
 attribute @s generic.movement_speed modifier add 0-0-0-0-0 "neko_speed" 0.15 multiply
 
 xp set @s 100 levels

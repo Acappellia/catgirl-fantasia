@@ -70,6 +70,7 @@ scoreboard objectives add target_maxhealth dummy
 scoreboard objectives add target_regencd custom:time_since_death
 scoreboard objectives add target_respawncd custom:time_since_death
 scoreboard objectives add target_nekotype dummy
+scoreboard objectives add target_nekotype_origin dummy
 
 scoreboard objectives add grenade_cd dummy
 
@@ -79,6 +80,8 @@ scoreboard objectives add neko_selection dummy
 scoreboard objectives add solder_selection dummy
 
 scoreboard objectives add stats_playerdmg dummy
+scoreboard objectives add stats_nekohit dummy
+
 
 function cf:slowtick
 function cf:3gt_tick

@@ -10,4 +10,7 @@ execute as @e[type=item_display,tag=neko_grenade] at @s run function cf:skills/g
 
 kill @e[type=arrow,nbt={inGround:1b}]
 
+#define score_holder #game_start
+
 execute if score #game_start cf matches 1 as @a unless score @s ingame matches 1 run function cf:spec/set_spec
+execute unless score #game_start cf matches 1 as @a[team=!] run function cf:game/player_quit
