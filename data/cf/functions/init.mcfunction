@@ -28,7 +28,6 @@ team modify neko prefix "⚗ "
 
 forceload add 0 0 0 0
 setblock 0 2 0 shulker_box
-execute unless entity @e[type=marker,tag=package_sender] run summon marker 0 2 0 {Tags:["package_sender"]}
 
 scoreboard objectives add ingame dummy
 
