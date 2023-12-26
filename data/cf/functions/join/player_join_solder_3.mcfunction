@@ -1,3 +1,5 @@
+scoreboard players set @s ingame 1
+gamemode adventure @s
 team join solder @s
 clear @s
 scoreboard players set @s player_health 3

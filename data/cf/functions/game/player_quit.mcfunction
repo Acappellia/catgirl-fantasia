@@ -1,4 +1,6 @@
 tp @s 0 100 0
+#tp lobby
+gamemode adventure @s
 
 team leave @s
 clear @s
