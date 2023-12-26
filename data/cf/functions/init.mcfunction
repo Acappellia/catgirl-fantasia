@@ -13,7 +13,7 @@ team join solder #solder
 team join neko #neko
 
 team modify solder collisionRule pushOtherTeams
-team modify solder color yellow
+team modify solder color gold
 team modify solder friendlyFire false
 team modify solder nametagVisibility always
 team modify solder seeFriendlyInvisibles true
