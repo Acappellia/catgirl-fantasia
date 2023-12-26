@@ -1,3 +1,4 @@
+scoreboard players reset @a solder_selection
 execute as @a at @s run function cf:join/player_join
 scoreboard players set #game_start cf 1
 
