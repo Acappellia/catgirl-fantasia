@@ -17,7 +17,7 @@ scoreboard players set @s player_recoil_time -10
 effect give @s slowness 1 0 true
 
 tag @s add firing
-execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run function cf:fire/rifle_ray
+execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 as @e[type=marker,tag=package_sender] run function cf:fire/rifle_ray
 tag @s remove hit
 tag @s remove firing
 tag @e[distance=..30] remove hit
