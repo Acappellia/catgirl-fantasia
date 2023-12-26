@@ -71,6 +71,8 @@ scoreboard objectives add target_regencd custom:time_since_death
 scoreboard objectives add target_respawncd custom:time_since_death
 scoreboard objectives add target_nekotype dummy
 
+scoreboard objectives add grenade_cd dummy
+
 scoreboard objectives add neko_unstop custom:time_since_death
 
 scoreboard objectives add neko_selection dummy

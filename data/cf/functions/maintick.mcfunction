@@ -6,6 +6,7 @@ execute as @a[team=solder,scores={player_shotgun_bolt=-7}] at @s run function cf
 execute as @a[team=solder,scores={player_shotgun_bolt=-1}] at @s run function cf:fire/shotgun_bolt2
 
 execute as @a[team=neko,scores={player_fire=1..,player_firecd=0..}] at @s run function cf:neko/check_atk
+execute as @e[type=item_display,tag=neko_grenade] at @s run function cf:skills/grenade/tick
 
 kill @e[type=arrow,nbt={inGround:1b}]
 
