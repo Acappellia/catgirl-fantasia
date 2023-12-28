@@ -29,3 +29,15 @@ execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/select_helmet
 
 execute store result score @s menu_click run clear @s minecraft:gold_ingot{custom_3:1} 0
 execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/select_infect
+
+execute store result score @s menu_click run clear @s minecraft:arrow{bp_next:1} 0
+execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/enter_battlepass
+
+execute store result score @s menu_click run clear @s minecraft:arrow{bp_next:2} 0
+execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/enter_battlepass2
+
+execute store result score @s menu_click run clear @s minecraft:arrow{bp_next:3} 0
+execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/enter_battlepass3
+
+execute store result score @s menu_click run clear @s minecraft:arrow{bp_next:4} 0
+execute as @s[scores={menu_click=1..}] run function cf:menu/clicks/enter_battlepass4
