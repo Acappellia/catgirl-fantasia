@@ -1,3 +1,7 @@
+execute as @a[tag=!edit] store result score @s menu_click run clear @s #cf:ui_items{menu_ui:1} 0
+execute as @a[scores={menu_click=1..}] at @s run function cf:menu/menu_click
+execute as @e[type=item,nbt={Item:{tag:{menu_ui:1}}}] at @s run function cf:menu/menu_drop
+
 execute as @a[team=solder,scores={player_fire=1..,player_firecd=0..}] at @s run function cf:fire/check_fire
 execute as @a[team=solder,scores={player_burst_smg=1..}] at @s run function cf:fire/check_burst
 

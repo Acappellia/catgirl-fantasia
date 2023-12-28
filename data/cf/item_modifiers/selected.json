@@ -1,0 +1,15 @@
+{
+    "function": "set_lore",
+    "entity": "this",
+    "replace": false,
+    "lore": [
+        [
+            {
+                "text": "已选择",
+                "color": "#CCCCCC",
+                "italic": false,
+                "bold": true
+            }
+        ]
+    ]
+}

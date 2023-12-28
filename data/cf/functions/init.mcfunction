@@ -27,8 +27,16 @@ team modify neko prefix "⚗ "
 #team modify neko prefix "🔔 "
 
 forceload add 0 0 0 0
-setblock 0 2 0 shulker_box
+setblock 0 -62 0 shulker_box
 
+scoreboard objectives add bp_level dummy
+
+scoreboard objectives add selected_knife dummy
+scoreboard objectives add selected_helmet dummy
+scoreboard objectives add selected_infect dummy
+
+scoreboard objectives add menu_click dummy
+scoreboard objectives add menu_page dummy
 scoreboard objectives add ingame dummy
 
 scoreboard objectives add cf dummy

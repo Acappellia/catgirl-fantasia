@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "open": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "ender_chest",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cf:menu/click_chest"
+    }
+}
