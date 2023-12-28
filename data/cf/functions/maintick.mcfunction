@@ -18,3 +18,5 @@ kill @e[type=arrow,nbt={inGround:1b}]
 
 execute if score #game_start cf matches 1 as @a unless score @s ingame matches 1 if entity @s[gamemode=!spectator,gamemode=!creative] run function cf:spec/set_spec
 execute unless score #game_start cf matches 1 as @a unless score @s solder_selection matches 1 run function cf:game/player_quit
+
+scoreboard players reset @a player_fire
