@@ -11,6 +11,7 @@ execute if score @p[distance=..6,tag=atking] selected_infect matches 7 run funct
 execute if score @p[distance=..6,tag=atking] selected_infect matches 8 run function cf:neko/effects/8
 
 execute if score @p[distance=..6,tag=atking] selected_infect matches 1.. run effect give @s invisibility 2 0 true
+effect clear @s glowing
 effect give @s slowness 2 9 true
 effect give @s jump_boost 2 128 true
 execute if score #game_start cf matches 1 run function cf:title/player_die
