@@ -16,3 +16,7 @@ scoreboard players set #game_start cf 1
 execute if score #active_map cf matches 1 run tp @a -140 -50 123 180 0
 execute if score #active_map cf matches 2 run tp @a 10 -50 123 180 0
 #tp map
+
+bossbar set game_wait visible false
+bossbar set mother_time visible true
+scoreboard players set #mother_wait cf 30

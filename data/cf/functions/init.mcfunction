@@ -32,6 +32,8 @@ setblock 0 -62 0 shulker_box
 scoreboard objectives add bp_level dummy
 scoreboard objectives add bp_xp dummy
 
+scoreboard objectives add counts dummy "剩余玩家数量"
+
 scoreboard objectives add selected_knife dummy
 scoreboard objectives add selected_helmet dummy
 scoreboard objectives add selected_infect dummy
@@ -127,7 +129,9 @@ scoreboard objectives add xptoadd_nkill dummy
 scoreboard objectives add xptoadd_nwin dummy
 scoreboard objectives add xptoadd_norigin dummy
 
+scoreboard players set #6 cf 6
 scoreboard players set #10 cf 10
+scoreboard players set #60 cf 60
 scoreboard players set #100 cf 100
 scoreboard players set #500 cf 500
 scoreboard players set #1000 cf 1000
@@ -135,6 +139,21 @@ scoreboard players set #2000 cf 2000
 scoreboard players set #10000 cf 10000
 
 scoreboard players set #active_map cf 1
+
+bossbar add game_wait "game_wait"
+bossbar set game_wait color white
+bossbar set game_wait max 60
+bossbar set game_wait style progress
+
+bossbar add game_time "game_time"
+bossbar set game_time color yellow
+bossbar set game_time max 240
+bossbar set game_time style notched_6
+
+bossbar add mother_time "mother_time"
+bossbar set mother_time color green
+bossbar set mother_time max 30
+bossbar set mother_time style progress
 
 function cf:slowtick
 function cf:3gt_tick
