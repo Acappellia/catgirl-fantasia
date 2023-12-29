@@ -8,5 +8,4 @@ scoreboard players operation @s player_bammo_sr = @s player_ammo_sr
 execute if score @s player_ammo_sr matches ..2 run scoreboard players set @s player_bammo_sr 0
 execute if score @s player_ammo_sr matches 3.. run scoreboard players remove @s player_bammo_sr 2
 execute if score @s player_ammo_sr matches 3.. run scoreboard players set @s player_ammo_sr 2
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_sr"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_sr"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_sr

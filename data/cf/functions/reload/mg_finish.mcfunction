@@ -8,5 +8,4 @@ scoreboard players operation @s player_bammo_mg = @s player_ammo_mg
 execute if score @s player_ammo_mg matches ..200 run scoreboard players set @s player_bammo_mg 0
 execute if score @s player_ammo_mg matches 201.. run scoreboard players remove @s player_bammo_mg 200
 execute if score @s player_ammo_mg matches 201.. run scoreboard players set @s player_ammo_mg 200
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_mg"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_mg"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_mg

@@ -8,7 +8,7 @@ effect give @s slowness 5 4 true
 effect give @s slowness 2 5 true
 execute store result score #damage_dealt cf run random value 290..310
 scoreboard players operation @s target_health -= #damage_dealt cf
-scoreboard players operation @a[distance=..50,tag=firing] stats_playerdmg += #damage_dealt cf
+scoreboard players operation @a[distance=..50,tag=firing] stats_playerdmg_single += #damage_dealt cf
 function cf:neko/hit
 execute if score @s target_health matches ..0 run function cf:fire/kill
 #single shot dmg 300

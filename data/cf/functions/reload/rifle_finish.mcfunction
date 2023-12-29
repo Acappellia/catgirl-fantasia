@@ -8,5 +8,4 @@ scoreboard players operation @s player_bammo_rifle = @s player_ammo_rifle
 execute if score @s player_ammo_rifle matches ..35 run scoreboard players set @s player_bammo_rifle 0
 execute if score @s player_ammo_rifle matches 36.. run scoreboard players remove @s player_bammo_rifle 35
 execute if score @s player_ammo_rifle matches 36.. run scoreboard players set @s player_ammo_rifle 35
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_rifle"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_rifle"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_rifle

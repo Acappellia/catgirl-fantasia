@@ -6,7 +6,7 @@ execute if score #neko_hit_success cf matches -1 at @s anchored feet facing enti
 execute if score #neko_hit_success cf matches -1 run return -1
 
 damage @s 0.01
-scoreboard players add @a[distance=..6,tag=atking] stats_nekohit 1
+scoreboard players add @a[distance=..6,tag=atking] stats_nekohit_single 1
 execute at @s run particle sweep_attack ~ ~1 ~ 0.3 0.3 0.3 0 3
 playsound item.shield.break player @a ~ ~ ~ 1 0.5
 playsound entity.villager.hurt player @a ~ ~ ~ 1 0.8

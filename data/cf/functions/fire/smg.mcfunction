@@ -20,5 +20,4 @@ tag @s remove firing
 
 scoreboard players remove @s player_ammo_smg 1
 execute if score @s player_ammo_smg matches ..0 if score @s player_bammo_smg matches 1.. run function cf:reload/smg
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_smg"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_smg"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_smg

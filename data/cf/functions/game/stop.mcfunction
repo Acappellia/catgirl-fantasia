@@ -1,4 +1,4 @@
-execute unless score #game_start cf matches 1 run return -1
+execute unless score #game_start cf matches 1.. run return -1
 
 scoreboard players set #game_start cf 0
 scoreboard objectives remove ingame

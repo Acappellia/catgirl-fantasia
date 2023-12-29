@@ -1,6 +1,7 @@
 advancement revoke @s only cf:supply_gun
 
 tellraw @s "> 获得了强力的武器！"
+scoreboard players add @s stats_playerloot_single 1
 playsound item.armor.equip_netherite block @a ~ ~ ~ 1 0.8
 
 #define score_holder #supply_guntype

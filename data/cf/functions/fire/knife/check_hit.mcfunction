@@ -8,6 +8,6 @@ execute if score #neko_hit_success cf matches -1 run return -1
 damage @s 0.01
 execute at @s run particle sweep_attack ~ ~1 ~ 0.3 0.3 0.3 0 3
 scoreboard players remove @s target_health 450
-scoreboard players add @a[distance=..30,tag=firing] stats_playerdmg 450
+scoreboard players add @a[distance=..30,tag=firing] stats_playerdmg_single 450
 function cf:neko/hit
-execute if score @s target_health matches ..0 run function cf:fire/kill
+execute if score @s target_health matches ..0 run function cf:fire/knife/kill

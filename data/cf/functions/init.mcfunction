@@ -29,7 +29,15 @@ team modify neko prefix "⚗ "
 forceload add 0 0 0 0
 setblock 0 -62 0 shulker_box
 
+scoreboard players set #10 cf 10
+scoreboard players set #100 cf 100
+scoreboard players set #500 cf 500
+scoreboard players set #1000 cf 1000
+scoreboard players set #2000 cf 2000
+scoreboard players set #10000 cf 10000
+
 scoreboard objectives add bp_level dummy
+scoreboard objectives add bp_xp dummy
 
 scoreboard objectives add selected_knife dummy
 scoreboard objectives add selected_helmet dummy
@@ -87,9 +95,42 @@ scoreboard objectives add neko_unstop custom:time_since_death
 scoreboard objectives add neko_selection dummy
 scoreboard objectives add solder_selection dummy
 
-scoreboard objectives add stats_playerdmg dummy
-scoreboard objectives add stats_nekohit dummy
+scoreboard objectives add stats_playerdmg_single dummy
+scoreboard objectives add stats_playerdmg_total dummy
+scoreboard objectives add stats_playerdmg_best dummy
 
+scoreboard objectives add stats_playerkill_single dummy
+scoreboard objectives add stats_playerkill_total dummy
+scoreboard objectives add stats_playerkill_best dummy
+
+scoreboard objectives add stats_playerloot_single dummy
+scoreboard objectives add stats_playerloot_total dummy
+
+scoreboard objectives add stats_playermelee_single dummy
+scoreboard objectives add stats_playermelee_total dummy
+
+scoreboard objectives add stats_playerwin dummy
+
+scoreboard objectives add stats_nekohit_single dummy
+scoreboard objectives add stats_nekohit_total dummy
+scoreboard objectives add stats_nekohit_best dummy
+
+scoreboard objectives add stats_nekokill_single dummy
+scoreboard objectives add stats_nekokill_total dummy
+scoreboard objectives add stats_nekokill_best dummy
+
+scoreboard objectives add stats_nekowin dummy
+
+scoreboard objectives add xptoadd_all dummy
+scoreboard objectives add xptoadd_pdmg dummy
+scoreboard objectives add xptoadd_pkill dummy
+scoreboard objectives add xptoadd_ploot dummy
+scoreboard objectives add xptoadd_pmelee dummy
+scoreboard objectives add xptoadd_pwin dummy
+scoreboard objectives add xptoadd_nhit dummy
+scoreboard objectives add xptoadd_nkill dummy
+scoreboard objectives add xptoadd_nwin dummy
+scoreboard objectives add xptoadd_norigin dummy
 
 function cf:slowtick
 function cf:3gt_tick

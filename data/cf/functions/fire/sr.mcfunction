@@ -22,7 +22,6 @@ tag @e[distance=..50] remove hit
 
 scoreboard players remove @s player_ammo_sr 1
 execute if score @s player_ammo_sr matches ..0 if score @s player_bammo_sr matches 1.. run function cf:reload/sr
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_sr"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_sr"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_sr
 
 scoreboard players set @s player_firecd -35

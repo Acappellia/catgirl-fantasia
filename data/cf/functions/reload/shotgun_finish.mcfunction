@@ -8,5 +8,4 @@ scoreboard players operation @s player_bammo_shotgun = @s player_ammo_shotgun
 execute if score @s player_ammo_shotgun matches ..6 run scoreboard players set @s player_bammo_shotgun 0
 execute if score @s player_ammo_shotgun matches 7.. run scoreboard players remove @s player_bammo_shotgun 6
 execute if score @s player_ammo_shotgun matches 7.. run scoreboard players set @s player_ammo_shotgun 6
-title @s title ""
-title @s subtitle ["                                             ",{"text": "Ꜳ","underlined": true},{"text":" : ","underlined": false},{"score":{"name": "@s","objective": "player_ammo_shotgun"}}, " / ",{"score":{"name": "@s","objective": "player_bammo_shotgun"}}]
+execute if score #game_start cf matches 1 run function cf:title/player_ammo_shotgun
