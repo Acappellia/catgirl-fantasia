@@ -1,7 +1,7 @@
-scoreboard players set @s target_respawncd -200
+scoreboard players set @s target_respawncd -100
 clear @s
 particle poof ~ ~ ~ 0.1 0.5 0.1 0.05 10
-effect give @s levitation 10 0 true
+effect give @s levitation 4 0 true
 effect give @s invisibility infinite 0 true
 effect give @s weakness infinite 9 true
 attribute @s generic.movement_speed modifier remove 0-0-0-0-0
