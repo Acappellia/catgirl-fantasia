@@ -11,6 +11,7 @@ effect give @s invisibility infinite 0 true
 effect give @s weakness infinite 9 true
 attribute @s generic.movement_speed modifier remove 0-0-0-0-0
 scoreboard players add @a[distance=..5,tag=atking] stats_playermelee_single 1
+scoreboard players add @a[distance=..5,tag=atking] stats_playerkill_single 1
 execute as @a[distance=..5,tag=atking] at @s run function cf:supply/ammo_interact
 execute if score #game_start cf matches 1 run function cf:title/neko_die
 function cf:join/neko_selection
