@@ -3,6 +3,7 @@ execute unless score #game_start cf matches 1.. run return -1
 scoreboard players set #game_start cf 2
 bossbar set game_time visible false
 
+tellraw @a [{"text": "> ","color": "gray"},{"text": "游戏结束！","color": "white"}]
 function cf:title/game_end
 
 execute as @a[scores={ingame=1}] run function cf:game/add_xp

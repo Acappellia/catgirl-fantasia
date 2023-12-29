@@ -22,3 +22,5 @@ bossbar set mother_time visible true
 scoreboard players set #mother_wait cf 30
 
 execute as @e[type=minecraft:item_display,tag=cf_ammo] run data modify entity @s Glowing set value 1b
+
+tellraw @a [{"text": "> ","color": "gray"},{"text": "游戏开始！","color": "white"}]

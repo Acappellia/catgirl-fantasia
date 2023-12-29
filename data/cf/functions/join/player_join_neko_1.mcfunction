@@ -1,5 +1,6 @@
 team join neko @s
 clear @s
+execute unless score @s target_nekotype_origin matches 1 run tellraw @s [{"text": "> ","color": "gray"},{"text": "你已成为猫猫领袖！","color": "light_purple"}]
 effect clear @s invisibility
 effect clear @s weakness
 scoreboard players set @s target_nekotype_origin 1
