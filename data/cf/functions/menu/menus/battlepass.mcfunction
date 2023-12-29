@@ -1,4 +1,4 @@
-item replace entity @s enderchest.26 with minecraft:arrow{bp_next:2,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"下一页","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.26 with minecraft:arrow{bp_next:2,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"下一页","color": "light_gray","italic": false}]'}}
 
 item replace entity @s enderchest.22 with minecraft:bell{menu_home:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"回主菜单","color": "yellow","italic": false}]'}}
 

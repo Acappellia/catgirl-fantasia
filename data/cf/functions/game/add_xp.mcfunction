@@ -12,9 +12,6 @@ scoreboard players operation @s xptoadd_nhit = @s stats_nekohit_single
 scoreboard players operation @s xptoadd_nhit *= #500 cf
 scoreboard players operation @s xptoadd_nkill = @s stats_nekokill_single
 scoreboard players operation @s xptoadd_nkill *= #500 cf
-scoreboard players reset @s xptoadd_norigin
-scoreboard players reset @s xptoadd_nwin
-scoreboard players reset @s xptoadd_pwin
 
 execute unless score @s stats_playerdmg_single <= @s stats_playerdmg_best run scoreboard players operation @s stats_playerdmg_best = @s stats_playerdmg_single
 execute unless score @s stats_playerkill_single <= @s stats_playerkill_best run scoreboard players operation @s stats_playerkill_best = @s stats_playerkill_single

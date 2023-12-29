@@ -2,7 +2,6 @@ team join neko @s
 clear @s
 effect clear @s invisibility
 effect clear @s weakness
-scoreboard players set @s target_nekotype_origin 1
 scoreboard players set @s target_nekotype 1
 scoreboard players set @s target_health 5000
 scoreboard players set @s target_maxhealth 5000
