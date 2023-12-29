@@ -12,4 +12,4 @@ playsound item.shield.break player @a ~ ~ ~ 1 0.5
 playsound entity.villager.hurt player @a ~ ~ ~ 1 0.8
 scoreboard players remove @s player_health 1
 function cf:neko/update_player_health
-execute if score @s player_health matches ..0 run function cf:neko/kill_grenade
+execute if score @s player_health matches ..0 at @s run function cf:neko/kill_grenade
