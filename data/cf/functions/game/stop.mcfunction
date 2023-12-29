@@ -12,3 +12,4 @@ scoreboard objectives add target_nekotype_origin dummy
 
 bossbar set game_wait visible true
 scoreboard objectives setdisplay sidebar
+scoreboard players reset @a neko_selection
