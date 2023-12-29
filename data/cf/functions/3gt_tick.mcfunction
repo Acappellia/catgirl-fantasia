@@ -8,4 +8,6 @@ execute as @a[team=solder,scores={player_respawn_cd=-3..-1}] at @s run function 
 
 execute as @a[team=neko,scores={neko_unstop=-3..-1}] run attribute @s generic.knockback_resistance modifier remove 0-0-0-0-1
 
+execute as @e[type=item_display,tag=infect_effect] run function cf:neko/effects/tick
+
 schedule function cf:3gt_tick 3t

@@ -1,7 +1,7 @@
 scoreboard players reset @s neko_selection
 effect clear @s invisibility
 effect clear @s weakness
-playsound entity.zombie.converted_to_drowned player @a ~ ~ ~ 1 0.8
+execute as @a at @s run playsound entity.zombie.converted_to_drowned player @s ~ ~ ~ 1 0.8
 particle heart ~ ~1 ~ 0.5 0.5 0.5 0 10
 particle wax_on ~ ~1 ~ 0.5 0.5 0.5 0 5
 particle wax_off ~ ~1 ~ 0.5 0.5 0.5 0 5

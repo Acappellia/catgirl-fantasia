@@ -1,5 +1,5 @@
 clear @s
-particle poof ~ ~ ~ 0.1 0.5 0.1 0.05 10
+execute at @s run particle poof ~ ~ ~ 0.1 0.5 0.1 0.05 10
 effect give @s slowness 2 9 true
 effect give @s jump_boost 2 128 true
 execute if score #game_start cf matches 1 run function cf:title/player_die
