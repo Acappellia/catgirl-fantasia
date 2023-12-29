@@ -40,6 +40,21 @@
       "seagrass",
       "kelp_plant",
       "cave_vines",
-      "sweet_berry_bush"
+      "sweet_berry_bush",
+      "light",
+      "chain",
+      "lightning_rod",
+      "campfire",
+      "water",
+      "white_carpet",
+      "yellow_carpet",
+      "amethyst_cluster",
+      "stone_button",
+      "end_rod",
+      "pink_candle",
+      "cherry_button",
+      "light_blue_banner",
+      "lever",
+      "ladder"
     ]
   }

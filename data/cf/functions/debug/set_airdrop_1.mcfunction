@@ -1,0 +1,1 @@
+execute align xz positioned ~0.5 ~ ~0.5 run summon marker ~ ~ ~ {Tags:["airdrop_1"]}

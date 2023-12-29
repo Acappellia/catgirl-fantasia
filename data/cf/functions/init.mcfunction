@@ -33,6 +33,7 @@ scoreboard objectives add bp_level dummy
 scoreboard objectives add bp_xp dummy
 
 scoreboard objectives add counts dummy "剩余玩家数量"
+scoreboard objectives add respawn_rotate dummy
 
 scoreboard objectives add selected_knife dummy
 scoreboard objectives add selected_helmet dummy
