@@ -16,7 +16,7 @@ team modify solder collisionRule pushOtherTeams
 team modify solder color gold
 team modify solder friendlyFire false
 team modify solder nametagVisibility always
-team modify solder seeFriendlyInvisibles true
+team modify solder seeFriendlyInvisibles false
 team modify solder prefix "⛨ "
 team modify neko collisionRule pushOtherTeams
 team modify neko color light_purple
