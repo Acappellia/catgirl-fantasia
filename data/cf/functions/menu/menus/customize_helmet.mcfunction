@@ -1,4 +1,4 @@
-item replace entity @s enderchest.22 with minecraft:bell{menu_customize:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"返回","color": "yellow","italic": false}]'}}
+item replace entity @s enderchest.22 with emerald{CustomModelData:4,menu_customize:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"返回","color": "yellow","italic": false}]'}}
 
 item replace entity @s enderchest.6 with emerald{CustomModelData:20,custom_helmet:0,custom_2:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"基础帽饰","color": "gray","italic": false}]'}}
 
