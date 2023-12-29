@@ -12,7 +12,7 @@
             [
                 {
                     "text": "玩家等级：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -27,7 +27,7 @@
             [
                 {
                     "text": "当前经验值：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -47,7 +47,7 @@
             [
                 {
                     "text": "人类阵营胜利数：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -62,7 +62,7 @@
             [
                 {
                     "text": "原生猫猫阵营胜利数：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {

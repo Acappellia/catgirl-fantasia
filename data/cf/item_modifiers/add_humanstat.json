@@ -12,7 +12,7 @@
             [
                 {
                     "text": "总造成伤害：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -27,7 +27,7 @@
             [
                 {
                     "text": "单局最高伤害：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -47,7 +47,7 @@
             [
                 {
                     "text": "总击败猫猫：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -62,7 +62,7 @@
             [
                 {
                     "text": "单局最多击败猫猫：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -82,7 +82,7 @@
             [
                 {
                     "text": "近战击败猫猫：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -97,7 +97,7 @@
             [
                 {
                     "text": "拾取武器补给箱：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {

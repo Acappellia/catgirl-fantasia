@@ -1,6 +1,6 @@
 item replace entity @s enderchest.22 with minecraft:bell{menu_customize:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"返回","color": "yellow","italic": false}]'}}
 
-item replace entity @s enderchest.6 with gold_ingot{custom_infect:0,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"无感染特效","color": "light_gray","italic": false}]'}}
+item replace entity @s enderchest.6 with gold_ingot{custom_infect:0,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"无感染特效","color": "gray","italic": false}]'}}
 
 item replace entity @s enderchest.2 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 item replace entity @s enderchest.3 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}

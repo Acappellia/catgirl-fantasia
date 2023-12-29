@@ -1,3 +1,5 @@
+execute unless score #game_start cf matches 1.. run return -1
+
 scoreboard players set #game_start cf 2
 
 function cf:title/game_end

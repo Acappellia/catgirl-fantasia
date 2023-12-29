@@ -12,7 +12,7 @@
             [
                 {
                     "text": "攻击命中人类：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -27,7 +27,7 @@
             [
                 {
                     "text": "单局最高击中人类：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -47,7 +47,7 @@
             [
                 {
                     "text": "总同化人类：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {
@@ -62,7 +62,7 @@
             [
                 {
                     "text": "单局最高同化人类：",
-                    "color": "light_gray",
+                    "color": "gray",
                     "italic": false
                 },
                 {

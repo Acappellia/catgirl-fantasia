@@ -1,4 +1,4 @@
-tp @s 0 100 0
+tp @s -42 -50 116 180 0
 #tp lobby
 gamemode adventure @s
 
