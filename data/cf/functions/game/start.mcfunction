@@ -2,6 +2,9 @@
 
 execute if score #game_start cf matches 1.. run return -1
 
+scoreboard players add #active_map cf 1
+execute if score #active_map cf matches 3.. run scoreboard players set #active_map cf 1
+
 scoreboard players reset @a stats_nekohit_single
 scoreboard players reset @a stats_nekokill_single
 scoreboard players reset @a stats_playerdmg_single
