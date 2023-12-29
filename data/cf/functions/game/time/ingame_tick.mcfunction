@@ -1,4 +1,5 @@
 #define score_holder #game_time_cd
+#define score_holder #airdrop_timer
 #define score_holder #game_time_cd_m
 
 scoreboard players set #game_time_cd cf 240
@@ -21,3 +22,7 @@ execute if score #game_time cf matches 240.. run function cf:game/game_end
 
 execute if score #solder_count cf matches ..0 run scoreboard players set #game_result cf 2
 execute if score #solder_count cf matches ..0 run function cf:game/game_end
+
+scoreboard players operation #airdrop_timer cf = #game_time cf
+scoreboard players operation #airdrop_timer cf %= #60 cf
+execute if score #airdrop_timer cf matches 45 run function cf:game/airdrop

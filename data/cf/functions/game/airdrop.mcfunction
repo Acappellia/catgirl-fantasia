@@ -1,0 +1,2 @@
+execute if score #active_map cf matches 1 as @e[type=marker,tag=airdrop_1,limit=2,sort=random] at @s run function cf:game/summon_airdrop
+execute if score #active_map cf matches 2 as @e[type=marker,tag=airdrop_2,limit=2,sort=random] at @s run function cf:game/summon_airdrop

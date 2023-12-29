@@ -13,3 +13,6 @@ scoreboard objectives add target_nekotype_origin dummy
 bossbar set game_wait visible true
 scoreboard objectives setdisplay sidebar
 scoreboard players reset @a neko_selection
+
+execute as @e[type=minecraft:item_display,tag=cf_ammo] run data modify entity @s Glowing set value 0b
+execute as @e[type=interaction,tag=cf_gun] at @s run function cf:supply/remove_supply
