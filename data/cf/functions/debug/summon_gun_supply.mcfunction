@@ -1,2 +1,2 @@
 execute align xz positioned ~0.5 ~0 ~0.5 run summon interaction ~ ~ ~ {Tags:["cf_gun"],response:1b}
-setblock ~ ~ ~ chest
+execute align xz positioned ~0.5 ~0.5 ~0.5 run summon item_display ~ ~ ~ {Tags:["cf_ammo"],item:{id:"gold_nugget",Count:1b,tag:{CustomModelData:5}}}
