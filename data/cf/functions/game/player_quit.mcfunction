@@ -8,6 +8,9 @@ attribute @s generic.knockback_resistance modifier remove 0-0-0-0-1
 team leave @s
 clear @s
 
+xp set @s 0 points
+xp set @s 0 levels
+
 function cf:game/show_stats
 
 function cf:join/solder_selection
