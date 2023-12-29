@@ -2,14 +2,14 @@ item replace entity @s enderchest.22 with minecraft:bell{menu_customize:1,menu_u
 
 item replace entity @s enderchest.6 with emerald{custom_knife:0,custom_1:1,CustomModelData:11,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"默认外观","color": "gray","italic": false}]'}}
 
-item replace entity @s enderchest.2 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.3 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.4 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.11 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.12 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.13 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.14 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
-item replace entity @s enderchest.15 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.2 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.3 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.4 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.11 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.12 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.13 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.14 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.15 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 
 execute if score @s bp_level matches 2.. run item replace entity @s enderchest.2 with emerald{custom_knife:1,custom_1:1,CustomModelData:12,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"金枝玫瑰","color": "yellow","italic": false}]'}}
 execute if score @s bp_level matches 6.. run item replace entity @s enderchest.3 with emerald{custom_knife:2,custom_1:1,CustomModelData:13,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"塑料玩具","color": "green","italic": false}]'}}
