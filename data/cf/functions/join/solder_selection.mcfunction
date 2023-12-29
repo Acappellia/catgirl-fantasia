@@ -1,3 +1,6 @@
+execute as @s[gamemode=creative] run advancement revoke @s only cf:solder_selection
+execute as @s[gamemode=creative] run return -1
+
 clear @s
 execute anchored eyes positioned ~ ~ ~ as @e[type=item,distance=..1] if data entity @s Item.tag.cf_solder_selection run kill @s
 
