@@ -88,6 +88,8 @@ scoreboard objectives add neko_unstop custom:time_since_death
 scoreboard objectives add neko_selection dummy
 scoreboard objectives add solder_selection dummy
 
+scoreboard objectives add stats_init dummy
+
 scoreboard objectives add stats_playerdmg_single dummy
 scoreboard objectives add stats_playerdmg_total dummy
 scoreboard objectives add stats_playerdmg_best dummy
@@ -131,7 +133,6 @@ scoreboard players set #500 cf 500
 scoreboard players set #1000 cf 1000
 scoreboard players set #2000 cf 2000
 scoreboard players set #10000 cf 10000
-
 
 scoreboard players set #active_map cf 1
 
