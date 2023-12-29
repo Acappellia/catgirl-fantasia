@@ -1,6 +1,6 @@
 item replace entity @s enderchest.22 with minecraft:bell{menu_customize:1,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"返回","color": "yellow","italic": false}]'}}
 
-item replace entity @s enderchest.6 with gold_ingot{custom_infect:0,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"无感染特效","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.6 with emerald{custom_infect:0,custom_3:1,CustomModelData:29,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"无感染特效","color": "gray","italic": false}]'}}
 
 item replace entity @s enderchest.2 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 item replace entity @s enderchest.3 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
@@ -11,14 +11,14 @@ item replace entity @s enderchest.13 with structure_void{menu_ui:1,HideFlags:63,
 item replace entity @s enderchest.14 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 item replace entity @s enderchest.15 with structure_void{menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 
-execute if score @s bp_level matches 4.. run item replace entity @s enderchest.2 with gold_ingot{custom_infect:1,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 8.. run item replace entity @s enderchest.3 with gold_ingot{custom_infect:2,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 12.. run item replace entity @s enderchest.4 with gold_ingot{custom_infect:3,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 15.. run item replace entity @s enderchest.11 with gold_ingot{custom_infect:4,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 19.. run item replace entity @s enderchest.12 with gold_ingot{custom_infect:5,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 22.. run item replace entity @s enderchest.13 with gold_ingot{custom_infect:6,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 26.. run item replace entity @s enderchest.14 with gold_ingot{custom_infect:7,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
-execute if score @s bp_level matches 29.. run item replace entity @s enderchest.15 with gold_ingot{custom_infect:8,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 4.. run item replace entity @s enderchest.2 with emerald{custom_infect:1,custom_3:1,CustomModelData:30,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 8.. run item replace entity @s enderchest.3 with emerald{custom_infect:2,custom_3:1,CustomModelData:31,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 12.. run item replace entity @s enderchest.4 with emerald{custom_infect:3,custom_3:1,CustomModelData:32,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 15.. run item replace entity @s enderchest.11 with emerald{custom_infect:4,custom_3:1,CustomModelData:33,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 19.. run item replace entity @s enderchest.12 with emerald{custom_infect:5,custom_3:1,CustomModelData:34,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 22.. run item replace entity @s enderchest.13 with emerald{custom_infect:6,custom_3:1,CustomModelData:35,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 26.. run item replace entity @s enderchest.14 with emerald{custom_infect:7,custom_3:1,CustomModelData:36,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
+execute if score @s bp_level matches 29.. run item replace entity @s enderchest.15 with emerald{custom_infect:8,custom_3:1,CustomModelData:37,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
 
 execute unless score @s selected_infect matches 1.. run item modify entity @s enderchest.6 cf:selected
 execute if score @s selected_infect matches 1 run item modify entity @s enderchest.2 cf:selected
