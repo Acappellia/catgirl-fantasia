@@ -4,4 +4,4 @@ $execute if score #10 cf matches ..$(mother_wait) run bossbar set mother_time na
 $execute unless score #10 cf matches ..$(mother_wait) run bossbar set mother_time name "原生猫猫即将出现... 0:0$(mother_wait)"
 $execute unless score #10 cf matches ..$(mother_wait) as @a at @s run playsound block.chain.place voice @s ~ ~ ~ 1 0.9
 
-execute if score #mother_wait cf matches 0 run function cf:game/mother_summon
+execute if score #mother_wait cf matches -1 run function cf:game/mother_summon
