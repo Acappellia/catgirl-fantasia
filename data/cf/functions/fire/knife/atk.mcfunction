@@ -3,8 +3,8 @@
 execute store result score #knife_type cf run data get storage cf:tmp SelectedItem.tag.knifetype
 
 execute if score #knife_type cf matches 1 run function cf:fire/knife/atk_effect/1
-execute if score #knife_type cf matches 2 run function cf:fire/knife/atk_effect/6
-execute if score #knife_type cf matches 3 run function cf:fire/knife/atk_effect/1
+execute if score #knife_type cf matches 2 run function cf:fire/knife/atk_effect/1
+execute if score #knife_type cf matches 3 run function cf:fire/knife/atk_effect/6
 execute if score #knife_type cf matches 4 run function cf:fire/knife/atk_effect/7
 execute if score #knife_type cf matches 5 run function cf:fire/knife/atk_effect/2
 execute if score #knife_type cf matches 6 run function cf:fire/knife/atk_effect/1
