@@ -21,20 +21,11 @@ execute if score @s bp_level matches 26.. run item replace entity @s enderchest.
 execute if score @s bp_level matches 29.. run item replace entity @s enderchest.15 with gold_ingot{custom_infect:8,custom_3:1,CustomModelData:1000,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"外观A","color": "green","italic": false}]'}}
 
 execute unless score @s selected_infect matches 1.. run item modify entity @s enderchest.6 cf:selected
-execute unless score @s selected_infect matches 1.. run item modify entity @s enderchest.6 cf:selected2
 execute if score @s selected_infect matches 1 run item modify entity @s enderchest.2 cf:selected
-execute if score @s selected_infect matches 1 run item modify entity @s enderchest.2 cf:selected2
 execute if score @s selected_infect matches 2 run item modify entity @s enderchest.3 cf:selected
-execute if score @s selected_infect matches 2 run item modify entity @s enderchest.3 cf:selected2
 execute if score @s selected_infect matches 3 run item modify entity @s enderchest.4 cf:selected
-execute if score @s selected_infect matches 3 run item modify entity @s enderchest.4 cf:selected2
 execute if score @s selected_infect matches 4 run item modify entity @s enderchest.11 cf:selected
-execute if score @s selected_infect matches 4 run item modify entity @s enderchest.11 cf:selected2
 execute if score @s selected_infect matches 5 run item modify entity @s enderchest.12 cf:selected
-execute if score @s selected_infect matches 5 run item modify entity @s enderchest.12 cf:selected2
 execute if score @s selected_infect matches 6 run item modify entity @s enderchest.13 cf:selected
-execute if score @s selected_infect matches 6 run item modify entity @s enderchest.13 cf:selected2
 execute if score @s selected_infect matches 7 run item modify entity @s enderchest.14 cf:selected
-execute if score @s selected_infect matches 7 run item modify entity @s enderchest.14 cf:selected2
 execute if score @s selected_infect matches 8 run item modify entity @s enderchest.15 cf:selected
-execute if score @s selected_infect matches 8 run item modify entity @s enderchest.15 cf:selected2
