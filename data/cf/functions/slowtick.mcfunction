@@ -14,6 +14,8 @@ execute if score #game_start cf matches 1 run function cf:game/time/game_tick
 
 execute unless score #game_start cf matches 1.. run function cf:game/time/wait_tick
 
+execute unless score #game_start cf matches 1.. run title @a actionbar "使用滚轮选择你的职业"
+
 #define score_holder #game_wait
 #define score_holder #game_time
 #define score_holder #mother_wait
