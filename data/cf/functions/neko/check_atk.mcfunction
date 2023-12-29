@@ -15,7 +15,7 @@ execute anchored eyes positioned ^1 ^ ^2 run particle sweep_attack ~ ~ ~ 0 0 0 0
 execute anchored eyes positioned ^ ^ ^2 run particle sweep_attack ~ ~ ~ 0 0 0 0 1
 
 tag @s add atking
-execute positioned ^ ^ ^1.5 as @a[team=solder,distance=..2] run function cf:neko/check_hit
+execute positioned ^ ^ ^1.5 as @a[team=solder,distance=..2,scores={player_health=1..}] run function cf:neko/check_hit
 tag @s remove atking
 
 scoreboard players set @s player_firecd -20
