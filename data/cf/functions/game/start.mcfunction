@@ -1,3 +1,5 @@
+#define score_holder #active_map
+
 execute if score #game_start cf matches 1.. run return -1
 
 scoreboard players reset @a stats_nekohit_single
@@ -11,5 +13,10 @@ scoreboard players reset @a solder_selection
 execute as @a at @s run function cf:join/player_join
 scoreboard players set #game_start cf 1
 
-tp @a 0 60 0
+execute if score #active_map cf matches 1 run tp @a -140 -50 123 180 0
+execute if score #active_map cf matches 2 run tp @a 10 -50 123 180 0
 #tp map
+
+bossbar set game_wait visible false
+bossbar set mother_time visible true
+scoreboard players set #mother_wait cf 30
