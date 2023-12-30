@@ -8,6 +8,7 @@ scoreboard players reset @a stats_playerdmg_single
 scoreboard players reset @a stats_playerkill_single
 scoreboard players reset @a stats_playerloot_single
 scoreboard players reset @a stats_playermelee_single
+scoreboard players reset @a stats_playersurv_single
 
 scoreboard players reset @a solder_selection
 execute as @a at @s run function cf:join/player_join

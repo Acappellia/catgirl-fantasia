@@ -1,5 +1,6 @@
 execute unless score #game_start cf matches 1.. run return -1
 
+execute as @a[team=solder] run scoreboard players operation @s stats_playersurv_single = #game_time cf
 scoreboard players set #game_start cf 2
 bossbar set game_time visible false
 

@@ -7,6 +7,8 @@ execute unless score @s stats_nekokill_best matches 0.. run scoreboard players s
 execute unless score @s stats_nekokill_total matches 0.. run scoreboard players set @s stats_nekokill_total 0
 execute unless score @s stats_nekowin matches 0.. run scoreboard players set @s stats_nekowin 0
 
+execute unless score @s stats_playersurv_best matches 0.. run scoreboard players set @s stats_playersurv_best 0
+execute unless score @s stats_playersurv_total matches 0.. run scoreboard players set @s stats_playersurv_total 0
 execute unless score @s stats_playerdmg_best matches 0.. run scoreboard players set @s stats_playerdmg_best 0
 execute unless score @s stats_playerdmg_total matches 0.. run scoreboard players set @s stats_playerdmg_total 0
 execute unless score @s stats_playerkill_best matches 0.. run scoreboard players set @s stats_playerkill_best 0

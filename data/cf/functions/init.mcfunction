@@ -96,6 +96,10 @@ scoreboard objectives add solder_selection dummy
 
 scoreboard objectives add stats_init dummy
 
+scoreboard objectives add stats_playersurv_single dummy
+scoreboard objectives add stats_playersurv_total dummy
+scoreboard objectives add stats_playersurv_best dummy
+
 scoreboard objectives add stats_playerdmg_single dummy
 scoreboard objectives add stats_playerdmg_total dummy
 scoreboard objectives add stats_playerdmg_best dummy
@@ -123,6 +127,7 @@ scoreboard objectives add stats_nekokill_best dummy
 scoreboard objectives add stats_nekowin dummy
 
 scoreboard objectives add xptoadd_all dummy
+scoreboard objectives add xptoadd_psurv dummy
 scoreboard objectives add xptoadd_pdmg dummy
 scoreboard objectives add xptoadd_pkill dummy
 scoreboard objectives add xptoadd_ploot dummy
@@ -133,12 +138,15 @@ scoreboard objectives add xptoadd_nkill dummy
 scoreboard objectives add xptoadd_nwin dummy
 scoreboard objectives add xptoadd_norigin dummy
 
+scoreboard players set #2 cf 2
 scoreboard players set #6 cf 6
 scoreboard players set #10 cf 10
+scoreboard players set #20 cf 20
 scoreboard players set #60 cf 60
 scoreboard players set #100 cf 100
 scoreboard players set #500 cf 500
 scoreboard players set #1000 cf 1000
+scoreboard players set #1500 cf 1500
 scoreboard players set #2000 cf 2000
 scoreboard players set #10000 cf 10000
 

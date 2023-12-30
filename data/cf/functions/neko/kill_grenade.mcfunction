@@ -11,6 +11,9 @@ execute if score @p[team=neko,scores={target_nekotype_origin=1}] selected_infect
 execute if score @p[team=neko,scores={target_nekotype_origin=1}] selected_infect matches 8 run function cf:neko/effects/8
 
 execute if score @p[team=neko,scores={target_nekotype_origin=1}] selected_infect matches 1.. run effect give @s invisibility 2 0 true
+
+scoreboard players operation @s stats_playersurv_single = #game_time cf
+
 effect clear @s glowing
 effect give @s slowness 2 9 true
 effect give @s jump_boost 2 128 true

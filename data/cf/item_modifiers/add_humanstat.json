@@ -11,6 +11,41 @@
             ],
             [
                 {
+                    "text": "总生存时间：",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "stats_playersurv_total"
+                    },
+                    "color": "white",
+                    "italic": false
+                }
+            ],
+            [
+                {
+                    "text": "单局最高生存：",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "stats_playersurv_best"
+                    },
+                    "color": "white",
+                    "italic": false
+                }
+            ],
+            [
+                {
+                    "text": ""
+                }
+            ],
+            [
+                {
                     "text": "总造成伤害：",
                     "color": "gray",
                     "italic": false
