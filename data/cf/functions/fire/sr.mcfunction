@@ -8,9 +8,9 @@ playsound minecraft:entity.warden.sonic_boom player @a ~ ~ ~ 3 1
 playsound minecraft:entity.warden.attack_impact player @a ~ ~ ~ 3 1
 playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 0.8 1.5
 
-execute store result score @s player_recoil_type run random value 9..10
-execute if score @s player_recoil_type matches 9 run tp @s ~ ~ ~ ~0.7 ~-3
-execute if score @s player_recoil_type matches 10 run tp @s ~ ~ ~ ~2 ~-2.5
+#execute store result score @s player_recoil_type run random value 9..10
+#execute if score @s player_recoil_type matches 9 run tp @s ~ ~ ~ ~0.7 ~-3
+#execute if score @s player_recoil_type matches 10 run tp @s ~ ~ ~ ~2 ~-2.5
 #scoreboard players set @s player_recoil_time -10
 effect give @s slowness 2 2 true
 

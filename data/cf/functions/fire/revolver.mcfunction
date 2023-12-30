@@ -7,9 +7,9 @@ playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 1 1.5
 playsound minecraft:entity.firework_rocket.large_blast_far player @a ~ ~ ~ 1 0.5
 playsound minecraft:item.spyglass.use player @a ~ ~ ~ 1 0.1
 
-execute store result score @s player_recoil_type run random value 7..8
-execute if score @s player_recoil_type matches 7 run tp @s ~ ~ ~ ~1 ~-2
-execute if score @s player_recoil_type matches 8 run tp @s ~ ~ ~ ~0.3 ~-4
+#execute store result score @s player_recoil_type run random value 7..8
+#execute if score @s player_recoil_type matches 7 run tp @s ~ ~ ~ ~1 ~-2
+#execute if score @s player_recoil_type matches 8 run tp @s ~ ~ ~ ~0.3 ~-4
 #scoreboard players set @s player_recoil_time -10
 
 tag @s add firing

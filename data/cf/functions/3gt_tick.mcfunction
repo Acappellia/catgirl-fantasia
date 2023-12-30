@@ -11,4 +11,6 @@ execute as @a[team=neko,scores={neko_unstop=-3..-1}] run attribute @s generic.kn
 execute as @e[type=item_display,tag=infect_effect] run function cf:neko/effects/tick
 execute as @a[team=neko,scores={target_health=..450}] unless score @s neko_selection matches 1 at @s run particle dust 1 0.925 0.247 3 ~ ~1 ~ 0.4 1 0.4 0 1
 
+kill @e[type=item]
+
 schedule function cf:3gt_tick 3t

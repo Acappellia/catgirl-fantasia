@@ -6,8 +6,6 @@ effect give @a haste infinite 127 true
 
 execute at @a[team=neko,scores={target_nekotype_origin=1}] as @a[team=solder,distance=..20,scores={player_health=1..}] run function cf:skills/scan_check
 
-execute as @e[type=item] at @s unless entity @a[distance=..10] run kill @s
-
 schedule function cf:slowtick 20t
 
 execute if score #game_start cf matches 1 run function cf:game/time/game_tick
