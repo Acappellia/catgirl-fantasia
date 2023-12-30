@@ -3,11 +3,11 @@ clear @s
 effect clear @s invisibility
 effect clear @s weakness
 scoreboard players set @s target_nekotype 2
-scoreboard players set @s target_health 2000
-scoreboard players set @s target_maxhealth 2000
+scoreboard players set @s target_health 1500
+scoreboard players set @s target_maxhealth 1500
 scoreboard players reset @s neko_skillcd
-execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_health 6000
-execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_maxhealth 6000
+execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_health 3000
+execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_maxhealth 3000
 
 xp set @s 100 levels
 xp set @s 741 points
