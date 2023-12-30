@@ -154,7 +154,7 @@ bossbar set game_wait style progress
 
 bossbar add game_time "game_time"
 bossbar set game_time color yellow
-bossbar set game_time max 240
+bossbar set game_time max 210
 bossbar set game_time style notched_6
 
 bossbar add mother_time "mother_time"
