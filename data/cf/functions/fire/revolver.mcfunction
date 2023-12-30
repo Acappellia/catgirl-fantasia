@@ -10,7 +10,7 @@ playsound minecraft:item.spyglass.use player @a ~ ~ ~ 1 0.1
 execute store result score @s player_recoil_type run random value 7..8
 execute if score @s player_recoil_type matches 7 run tp @s ~ ~ ~ ~1 ~-2
 execute if score @s player_recoil_type matches 8 run tp @s ~ ~ ~ ~0.3 ~-4
-scoreboard players set @s player_recoil_time -10
+#scoreboard players set @s player_recoil_time -10
 
 tag @s add firing
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run function cf:fire/revolver_ray
