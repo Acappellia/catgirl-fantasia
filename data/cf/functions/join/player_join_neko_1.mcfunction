@@ -7,6 +7,7 @@ scoreboard players set @s target_nekotype_origin 1
 scoreboard players set @s target_nekotype 1
 scoreboard players set @s target_health 5000
 scoreboard players set @s target_maxhealth 5000
+scoreboard players reset @s neko_skillcd
 attribute @s generic.movement_speed modifier add 0-0-0-0-0 "neko_speed" 0.15 multiply
 
 xp set @s 100 levels

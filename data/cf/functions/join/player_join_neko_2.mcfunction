@@ -5,6 +5,7 @@ effect clear @s weakness
 scoreboard players set @s target_nekotype 2
 scoreboard players set @s target_health 2000
 scoreboard players set @s target_maxhealth 2000
+scoreboard players reset @s neko_skillcd
 execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_health 6000
 execute if score @s target_nekotype_origin matches 1 run scoreboard players set @s target_maxhealth 6000
 
