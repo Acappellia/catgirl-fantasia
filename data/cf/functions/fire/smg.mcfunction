@@ -11,7 +11,7 @@ execute store result score @s player_recoil_type run random value 4..6
 execute if score @s player_recoil_type matches 4 run tp @s ~ ~ ~ ~0.5 ~-0.5
 execute if score @s player_recoil_type matches 5 run tp @s ~ ~ ~ ~0.3 ~-0.6
 execute if score @s player_recoil_type matches 6 run tp @s ~ ~ ~ ~ ~-0.8
-scoreboard players set @s player_recoil_time -10
+#scoreboard players set @s player_recoil_time -10
 
 tag @s add firing
 execute anchored eyes positioned ^-0.3 ^-0.1 ^0.5 run function cf:fire/smg_ray
