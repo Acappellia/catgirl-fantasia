@@ -16,4 +16,4 @@ playsound entity.cat.eat player @a ~ ~ ~ 1 1.2
 playsound entity.cat.hiss player @a ~ ~ ~ 1 0.8
 
 item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:102}
-scoreboard players set @s neko_skillcd -150
+scoreboard players set @s neko_skillcd -250

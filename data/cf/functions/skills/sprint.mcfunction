@@ -17,4 +17,4 @@ data modify entity @e[type=arrow,distance=..2,limit=1,sort=nearest] damage set v
 ride @s mount @e[type=arrow,distance=..2,limit=1,sort=nearest]
 
 item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103}
-scoreboard players set @s neko_skillcd -200
+scoreboard players set @s neko_skillcd -300
