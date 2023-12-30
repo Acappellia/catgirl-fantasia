@@ -17,4 +17,6 @@ execute unless score @s stats_playerloot_total matches 0.. run scoreboard player
 execute unless score @s stats_playermelee_total matches 0.. run scoreboard players set @s stats_playermelee_total 0
 execute unless score @s stats_playerwin matches 0.. run scoreboard players set @s stats_playerwin 0
 
+execute unless score @s stats_games matches 0.. run scoreboard players set @s stats_games 0
+
 scoreboard players set @s stats_init 1
