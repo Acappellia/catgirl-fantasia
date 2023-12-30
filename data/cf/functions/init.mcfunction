@@ -89,6 +89,7 @@ scoreboard objectives add grenade_cd dummy
 scoreboard objectives add effect_decay dummy
 
 scoreboard objectives add neko_unstop custom:time_since_death
+scoreboard objectives add neko_skillcd dummy
 
 scoreboard objectives add neko_selection dummy
 scoreboard objectives add solder_selection dummy

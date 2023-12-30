@@ -1,4 +1,5 @@
 scoreboard players reset @s neko_selection
+scoreboard players reset @s neko_skillcd
 effect clear @s invisibility
 effect clear @s weakness
 
