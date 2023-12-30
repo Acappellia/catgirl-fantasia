@@ -10,6 +10,7 @@ scoreboard players reset @a stats_playerloot_single
 scoreboard players reset @a stats_playermelee_single
 
 scoreboard players reset @a solder_selection
+clear @a
 execute as @a at @s run function cf:join/player_join
 scoreboard players set #game_start cf 1
 
