@@ -33,6 +33,8 @@ scoreboard players operation @s stats_playermelee_total += @s stats_playermelee_
 scoreboard players operation @s stats_nekohit_total += @s stats_nekohit_single
 scoreboard players operation @s stats_nekokill_total += @s stats_nekokill_single
 
+scoreboard players add @s stats_games 1
+
 execute if score #game_result cf matches 1 run scoreboard players add @s[team=solder] stats_playerwin 1
 execute if score #game_result cf matches 1 run scoreboard players set @s[team=solder] xptoadd_pwin 2000
 

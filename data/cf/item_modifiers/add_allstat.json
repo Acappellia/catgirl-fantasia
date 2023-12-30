@@ -46,6 +46,21 @@
             ],
             [
                 {
+                    "text": "总对局数：",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "score": {
+                        "name": "@s",
+                        "objective": "stats_games"
+                    },
+                    "color": "white",
+                    "italic": false
+                }
+            ],
+            [
+                {
                     "text": "人类阵营胜利数：",
                     "color": "gray",
                     "italic": false
