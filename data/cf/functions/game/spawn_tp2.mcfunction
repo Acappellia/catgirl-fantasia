@@ -1,5 +1,6 @@
 #define score_holder #respawn_rotation
 
+tp @s 10 -50 123 180 0
 tag @s add spawn_tp
 scoreboard players add #respawn_rotation cf 1
 execute if score #respawn_rotation cf matches 17.. run scoreboard players set #respawn_rotation cf 1
