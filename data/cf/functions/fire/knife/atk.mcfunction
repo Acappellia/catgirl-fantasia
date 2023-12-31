@@ -13,7 +13,7 @@ execute if score #knife_type cf matches 8 run function cf:fire/knife/atk_effect/
 execute if score #knife_type cf matches 9 run function cf:fire/knife/atk_effect/5
 
 tag @s add atking
-execute positioned ^ ^ ^1.3 as @a[team=neko,distance=..1.7] run function cf:fire/knife/check_hit
+execute positioned ^ ^ ^1.3 as @a[team=neko,distance=..1.7,scores={target_health=1..}] run function cf:fire/knife/check_hit
 tag @s remove atking
 
 scoreboard players set @s player_firecd -30
