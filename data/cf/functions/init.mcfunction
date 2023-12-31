@@ -128,6 +128,8 @@ scoreboard objectives add stats_nekowin dummy
 
 scoreboard objectives add stats_games dummy
 
+scoreboard objectives add run_distance custom:sprint_one_cm
+
 scoreboard objectives add xptoadd_all dummy
 scoreboard objectives add xptoadd_psurv dummy
 scoreboard objectives add xptoadd_pdmg dummy
