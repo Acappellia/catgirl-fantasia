@@ -7,7 +7,7 @@ effect clear @s slowness
 effect clear @s levitation
 effect give @s speed 2 1 true
 attribute @s generic.knockback_resistance modifier add 0-0-0-0-1 "unstop" 10 add
-scoreboard players set @s neko_unstop -40
+scoreboard players set @s neko_unstop -70
 
 particle heart ~ ~1 ~ 0.5 0.5 0.5 0 10
 particle crit ~ ~1 ~ 0.5 0.5 0.5 0.1 10
