@@ -17,6 +17,8 @@ execute store result score #player_count cf if entity @a[scores={ingame=1}]
 execute store result score 人类阵营 counts store result score #solder_count cf if entity @a[team=solder]
 execute store result score 猫猫阵营 counts store result score #neko_count cf if entity @a[team=neko]
 
+execute if score #game_time cf matches 185 run function cf:game/near_end
+
 execute if score #game_time cf matches 210.. run scoreboard players set #game_result cf 1
 execute if score #game_time cf matches 210.. run function cf:game/game_end
 
