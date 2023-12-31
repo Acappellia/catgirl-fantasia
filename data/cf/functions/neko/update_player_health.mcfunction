@@ -1,3 +1,6 @@
+execute if score @s player_health matches 6 run title @s actionbar [{"text": "⛨","color": "red"},{"text": " · ","color": "white"},{"text": "⛨","color": "red"},{"text": " · ","color": "white"},{"text": "⛨","color": "red"}]
+execute if score @s player_health matches 5 run title @s actionbar [{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "red"},{"text": " · ","color": "white"},{"text": "⛨","color": "red"}]
+execute if score @s player_health matches 4 run title @s actionbar [{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "red"}]
 execute if score @s player_health matches 3 run title @s actionbar [{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"}]
 execute if score @s player_health matches 2 run title @s actionbar [{"text": "❤","color": "light_purple"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"}]
 execute if score @s player_health matches 1 run title @s actionbar [{"text": "❤","color": "light_purple"},{"text": " · ","color": "white"},{"text": "❤","color": "light_purple"},{"text": " · ","color": "white"},{"text": "⛨","color": "aqua"}]

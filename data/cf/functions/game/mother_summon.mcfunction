@@ -1,7 +1,9 @@
 #define score_holder #neko_count
+#define score_holder #hero_count
 
 execute store result score #solder_count cf store result score #neko_count cf if entity @a[team=solder]
 scoreboard players operation #neko_count cf /= #6 cf
+scoreboard players operation #hero_count cf = #neko_count cf
 
 bossbar set mother_time visible false
 bossbar set game_time visible true
@@ -13,5 +15,7 @@ execute as @r[team=solder] run function cf:join/player_join_neko_1
 scoreboard players remove #neko_count cf 1
 
 execute if score #neko_count cf matches 1.. run function cf:game/mother_summon_loop
+
+execute if score #hero_count cf matches 1.. run function cf:game/hero_summon_loop
 
 scoreboard objectives setdisplay sidebar counts
