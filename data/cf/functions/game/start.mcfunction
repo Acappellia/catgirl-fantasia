@@ -2,6 +2,9 @@
 
 execute if score #game_start cf matches 1.. run return -1
 
+effect clear @a invisibility
+effect clear @a weakness
+
 scoreboard players reset @a stats_nekohit_single
 scoreboard players reset @a stats_nekokill_single
 scoreboard players reset @a stats_playerdmg_single
