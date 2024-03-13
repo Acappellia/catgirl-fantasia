@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 18,
+        "pack_format": 26,
         "description": [
             {
                 "text": "Catgirl Fantasia\n",
                 "color": "#a8e64c"
             },
             {
-                "text": "MC 1.20.2",
+                "text": "MC 1.20.4",
                 "color": "#909090"
             }
         ]

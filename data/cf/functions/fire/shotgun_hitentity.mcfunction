@@ -6,12 +6,12 @@ tag @a[distance=..15,tag=firing] add hit
 
 effect give @s slowness 4 4 true
 effect give @s slowness 2 5 true
-execute store result score #damage_dealt cf run random value 28..32
+execute store result score #damage_dealt cf run random value 38..42
 scoreboard players operation @s target_health -= #damage_dealt cf
 scoreboard players operation @a[distance=..15,tag=firing] stats_playerdmg_single += #damage_dealt cf
 function cf:neko/hit
 execute if score @s target_health matches ..0 run function cf:fire/kill
-#single shot dmg 150
+#single shot dmg 200
 
 damage @s 0.01 generic by @a[distance=..15,tag=firing,limit=1]
 summon area_effect_cloud ~ ~0.6 ~ {Duration:10,CustomName:'[{"text":"+","color": "dark_green"}]',CustomNameVisible:true}

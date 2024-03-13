@@ -6,13 +6,13 @@ execute if predicate cf:60_chance run tag @a[distance=..30,tag=firing] add hit
 tag @s add hit
 
 effect give @s slowness 3 3 true
-execute store result score #damage_dealt cf run random value 21..23
+execute store result score #damage_dealt cf run random value 26..30
 scoreboard players operation @s target_health -= #damage_dealt cf
 scoreboard players operation @a[distance=..30,tag=firing] stats_playerdmg_single += #damage_dealt cf
 function cf:neko/hit
 execute if score @s target_health matches ..0 run function cf:fire/kill
-#avg single dps 110
-#avg group dps 172
+#avg single dps 140
+#avg group dps 219
 
 damage @s 0.01 generic by @a[distance=..30,tag=firing,limit=1]
 summon area_effect_cloud ~ ~0.6 ~ {Duration:10,CustomName:'[{"text":"x","color": "red"}]',CustomNameVisible:true}

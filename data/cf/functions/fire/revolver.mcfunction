@@ -20,3 +20,5 @@ tag @s remove firing
 scoreboard players remove @s player_ammo_revolver 1
 execute if score @s player_ammo_revolver matches ..0 if score @s player_bammo_revolver matches 1.. run function cf:reload/revolver
 execute if score #game_start cf matches 1 run function cf:title/player_ammo_revolver
+
+scoreboard players set @s player_firecd -10

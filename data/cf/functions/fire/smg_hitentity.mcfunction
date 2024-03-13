@@ -5,12 +5,12 @@ execute as @a[distance=..15,tag=firing] at @s run playsound ui.button.click play
 tag @a[distance=..15,tag=firing] add hit
 
 effect give @s slowness 3 3 true
-execute store result score #damage_dealt cf run random value 9..11
+execute store result score #damage_dealt cf run random value 9..10
 scoreboard players operation @s target_health -= #damage_dealt cf
 scoreboard players operation @a[distance=..15,tag=firing] stats_playerdmg_single += #damage_dealt cf
 function cf:neko/hit
 execute if score @s target_health matches ..0 run function cf:fire/kill
-#avg single dps 200
+#avg single dps 190
 #no group dmg
 
 damage @s 0.01 generic by @a[distance=..15,tag=firing,limit=1]

@@ -1,4 +1,5 @@
 #define storage cf:tmp
+#define storage cf:data
 
 gamerule fallDamage false
 gamerule doMobSpawning false
@@ -173,6 +174,8 @@ bossbar add mother_time "mother_time"
 bossbar set mother_time color green
 bossbar set mother_time max 30
 bossbar set mother_time style progress
+
+execute unless data storage cf:data text.reward run data modify storage cf:data text.reward set value "活动奖励"
 
 function cf:slowtick
 function cf:3gt_tick
