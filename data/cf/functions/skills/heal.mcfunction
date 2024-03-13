@@ -15,5 +15,5 @@ particle enchanted_hit ~ ~1 ~ 0.5 0.5 0.5 0.1 10
 playsound entity.cat.eat player @a ~ ~ ~ 1 1.2
 playsound entity.cat.hiss player @a ~ ~ ~ 1 0.8
 
-item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:102}
+item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:102,HideFlags:63,display:{Name:'[{"text": "猫爪"}]'}}
 scoreboard players set @s neko_skillcd -250

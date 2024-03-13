@@ -1,3 +1,5 @@
+tellraw @a "ray"
+
 #execute if predicate cf:40_chance run particle ash ~ ~ ~ 0 0 0 0 1
 execute unless block ^ ^ ^0.5 #cf:air_blocks run function cf:fire/rifle_hitblock
 execute as @a[team=neko,distance=..2,tag=!firing,tag=!hit,scores={target_respawncd=0..}] run function cf:fire/rifle_hitentity

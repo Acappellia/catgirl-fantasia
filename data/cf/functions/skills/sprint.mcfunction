@@ -16,5 +16,5 @@ data modify entity @e[type=arrow,distance=..2,limit=1,sort=nearest] Motion set f
 data modify entity @e[type=arrow,distance=..2,limit=1,sort=nearest] damage set value 0d
 ride @s mount @e[type=arrow,distance=..2,limit=1,sort=nearest]
 
-item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103}
+item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{cf_pow:1,CustomModelData:103,HideFlags:63,display:{Name:'[{"text": "猫爪"}]'}}
 scoreboard players set @s neko_skillcd -300

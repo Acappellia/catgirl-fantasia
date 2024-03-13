@@ -158,7 +158,7 @@ scoreboard players set #10000 cf 10000
 #define score_holder #min_players
 scoreboard players set #min_players cf 12
 
-scoreboard players set #active_map cf 1
+execute unless score #active_map cf matches 0.. run scoreboard players set #active_map cf 1
 
 bossbar add game_wait "game_wait"
 bossbar set game_wait color white

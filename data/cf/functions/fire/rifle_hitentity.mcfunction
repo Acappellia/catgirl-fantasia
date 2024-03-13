@@ -1,3 +1,5 @@
+tellraw @a "hitentity"
+
 execute positioned ~ ~-0.8 ~ unless predicate cf:hitbox_check run return -1
 
 particle block nether_wart_block ~ ~ ~ 0 0 0 0.1 5
