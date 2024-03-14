@@ -31,4 +31,4 @@ execute if score @s selected_helmet matches 5 run item modify entity @s enderche
 execute if score @s selected_helmet matches 6 run item modify entity @s enderchest.13 cf:selected
 execute if score @s selected_helmet matches 7 run item modify entity @s enderchest.14 cf:selected
 execute if score @s selected_helmet matches 8 run item modify entity @s enderchest.15 cf:selected
-execute if score @s selected_helmet matches 9 run item modify entity @s enderchest.18 cf:selected
+execute if score @s selected_helmet matches 9 run item modify entity @s enderchest.16 cf:selected

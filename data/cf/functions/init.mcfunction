@@ -7,6 +7,7 @@ gamerule doDaylightCycle false
 gamerule doFireTick false
 gamerule doWeatherCycle false
 gamerule keepInventory true
+gamerule announceAdvancements false
 
 team add solder "战术小队"
 team add neko "喵喵"
