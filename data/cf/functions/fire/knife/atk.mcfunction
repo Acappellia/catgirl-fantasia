@@ -11,6 +11,7 @@ execute if score #knife_type cf matches 6 run function cf:fire/knife/atk_effect/
 execute if score #knife_type cf matches 7 run function cf:fire/knife/atk_effect/3
 execute if score #knife_type cf matches 8 run function cf:fire/knife/atk_effect/4
 execute if score #knife_type cf matches 9 run function cf:fire/knife/atk_effect/5
+execute if score #knife_type cf matches 10 run function cf:fire/knife/atk_effect/8
 
 tag @s add atking
 execute positioned ^ ^ ^1.3 as @a[team=neko,distance=..1.7,scores={target_health=1..}] run function cf:fire/knife/check_hit

@@ -10,6 +10,7 @@ item replace entity @s enderchest.12 with emerald{CustomModelData:45,menu_ui:1,H
 item replace entity @s enderchest.13 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 item replace entity @s enderchest.14 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 item replace entity @s enderchest.15 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
+item replace entity @s enderchest.16 with emerald{CustomModelData:45,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"未解锁","color": "gray","italic": false}]'}}
 
 execute if score @s bp_level matches 4.. run item replace entity @s enderchest.2 with emerald{custom_infect:1,custom_3:1,CustomModelData:30,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"变成橘猫！","color": "gold","italic": false}]'}}
 execute if score @s bp_level matches 8.. run item replace entity @s enderchest.3 with emerald{custom_infect:2,custom_3:1,CustomModelData:31,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"变成黑猫！","color": "dark_gray","italic": false}]'}}
@@ -19,6 +20,7 @@ execute if score @s bp_level matches 19.. run item replace entity @s enderchest.
 execute if score @s bp_level matches 22.. run item replace entity @s enderchest.13 with emerald{custom_infect:6,custom_3:1,CustomModelData:35,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"打包装箱！","color": "green","italic": false}]'}}
 execute if score @s bp_level matches 26.. run item replace entity @s enderchest.14 with emerald{custom_infect:7,custom_3:1,CustomModelData:36,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"Among Us！","color": "red","italic": false}]'}}
 execute if score @s bp_level matches 29.. run item replace entity @s enderchest.15 with emerald{custom_infect:8,custom_3:1,CustomModelData:37,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"万众瞩目！","color": "gold","italic": false}]'}}
+execute if score @s bp_level matches 23.. run item replace entity @s enderchest.16 with emerald{custom_infect:9,custom_3:1,CustomModelData:6,menu_ui:1,HideFlags:63,display:{Name:'[{"text":"十六位武士","color": "red","italic": false}]'}}
 
 execute unless score @s selected_infect matches 1.. run item modify entity @s enderchest.6 cf:selected
 execute if score @s selected_infect matches 1 run item modify entity @s enderchest.2 cf:selected
@@ -29,3 +31,4 @@ execute if score @s selected_infect matches 5 run item modify entity @s enderche
 execute if score @s selected_infect matches 6 run item modify entity @s enderchest.13 cf:selected
 execute if score @s selected_infect matches 7 run item modify entity @s enderchest.14 cf:selected
 execute if score @s selected_infect matches 8 run item modify entity @s enderchest.15 cf:selected
+execute if score @s selected_infect matches 9 run item modify entity @s enderchest.16 cf:selected

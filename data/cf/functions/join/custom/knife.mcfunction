@@ -7,3 +7,4 @@ execute if score @s selected_knife matches 5 run item replace entity @s hotbar.2
 execute if score @s selected_knife matches 6 run item replace entity @s hotbar.2 with warped_fungus_on_a_stick{knifetype:7,cf_knife:1,CustomModelData:1007,display:{Name:'[{"text":"仪式长戟","color": "blue","italic": false}]'}}
 execute if score @s selected_knife matches 7 run item replace entity @s hotbar.2 with warped_fungus_on_a_stick{knifetype:8,cf_knife:1,CustomModelData:1008,display:{Name:'[{"text":"居合","color": "red","italic": false}]'}}
 execute if score @s selected_knife matches 8 run item replace entity @s hotbar.2 with warped_fungus_on_a_stick{knifetype:9,cf_knife:1,CustomModelData:1009,display:{Name:'[{"text":"黄金链锯剑","color": "gold","italic": false}]'}}
+execute if score @s selected_knife matches 9 run item replace entity @s hotbar.2 with warped_fungus_on_a_stick{knifetype:10,cf_knife:1,CustomModelData:1010,display:{Name:'[{"text":"十六丸切","color": "red","italic": false}]'}}

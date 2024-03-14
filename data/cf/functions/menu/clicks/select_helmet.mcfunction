@@ -35,3 +35,7 @@ scoreboard players reset @s menu_click
 execute store result score @s menu_click run clear @s minecraft:emerald{custom_helmet:8} 0
 execute as @s[scores={menu_click=1..}] run scoreboard players set @s selected_helmet 8
 scoreboard players reset @s menu_click
+
+execute store result score @s menu_click run clear @s minecraft:emerald{custom_helmet:9} 0
+execute as @s[scores={menu_click=1..}] run scoreboard players set @s selected_helmet 9
+scoreboard players reset @s menu_click
