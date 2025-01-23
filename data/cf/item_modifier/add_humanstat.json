@@ -1,8 +1,8 @@
 [
     {
+        "mode": "replace_all",
         "function": "minecraft:set_lore",
         "entity": "this",
-        "replace": false,
         "lore": [
             [
                 {

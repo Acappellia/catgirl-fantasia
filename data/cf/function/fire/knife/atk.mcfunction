@@ -1,6 +1,6 @@
 #define score_holder #knife_type
 
-execute store result score #knife_type cf run data get storage cf:tmp SelectedItem.tag.knifetype
+execute store result score #knife_type cf run data get storage cf:tmp SelectedItem.components."minecraft:custom_data".knifetype
 
 execute if score #knife_type cf matches 1 run function cf:fire/knife/atk_effect/1
 execute if score #knife_type cf matches 2 run function cf:fire/knife/atk_effect/1

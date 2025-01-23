@@ -1,7 +1,7 @@
 {
+    "mode": "replace_all",
     "function": "set_lore",
     "entity": "this",
-    "replace": false,
     "lore": [
         [
             {

@@ -1,13 +1,12 @@
 {
     "criteria": {
         "open": {
-            "trigger": "item_used_on_block",
+            "trigger": "any_block_use",
             "conditions": {
                 "location": [
                     {
                         "condition": "block_state_property",
-                        "block": "ender_chest",
-                        "properties": {}
+                        "block": "ender_chest"
                     }
                 ]
             }
