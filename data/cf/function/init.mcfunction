@@ -29,6 +29,10 @@ team modify neko prefix "⚗ "
 #team modify neko prefix "🔔 "
 
 forceload add 0 0 0 0
+forceload add -200 30 -10 140
+forceload add 0 50 120 200
+forceload add -120 220 60 350
+forceload add 110 220 250 400
 setblock 0 -62 0 shulker_box
 
 scoreboard objectives add bp_level dummy
