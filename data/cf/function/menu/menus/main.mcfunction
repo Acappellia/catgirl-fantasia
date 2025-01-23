@@ -1,0 +1,3 @@
+item replace entity @s enderchest.11 with minecraft:emerald[custom_model_data=5,custom_data={menu_stats:1,menu_ui:1},hide_additional_tooltip={},custom_name='[{"text":"统计数据","color": "yellow","italic": false}]']
+item replace entity @s enderchest.13 with minecraft:emerald[custom_model_data=6,custom_data={menu_battlepass:1,menu_ui:1},hide_additional_tooltip={},custom_name='[{"text":"战斗通行证","color": "light_purple","italic": false}]']
+item replace entity @s enderchest.15 with minecraft:emerald[custom_model_data=7,custom_data={menu_customize:1,menu_ui:1},hide_additional_tooltip={},custom_name='[{"text":"外观与特效","color": "gold","italic": false}]']

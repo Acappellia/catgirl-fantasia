@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "sprint": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": "{cf_neko_sprint:1}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cf:skills/sprint"
+    }
+}

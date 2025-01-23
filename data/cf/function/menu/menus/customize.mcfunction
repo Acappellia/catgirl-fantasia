@@ -1,0 +1,5 @@
+item replace entity @s enderchest.11 with emerald[custom_data={menu_ui:1,menu_knife:1},custom_model_data=11,hide_additional_tooltip={},custom_name='[{"text":"近战武器外观","color": "red","italic": false}]']
+item replace entity @s enderchest.13 with emerald[custom_data={menu_ui:1,menu_helmet:1},custom_model_data=20,hide_additional_tooltip={},custom_name='[{"text":"帽饰","color": "gold","italic": false}]']
+item replace entity @s enderchest.15 with emerald[custom_data={menu_ui:1,menu_infect:1},custom_model_data=29,hide_additional_tooltip={},custom_name='[{"text":"感染特效","color": "green","italic": false}]']
+
+item replace entity @s enderchest.22 with minecraft:emerald[custom_model_data=4,custom_data={menu_home:1,menu_ui:1},hide_additional_tooltip={},custom_name='[{"text":"回主菜单","color": "yellow","italic": false}]']

@@ -1,0 +1,2 @@
+execute align xz positioned ~0.5 ~0 ~0.5 run summon interaction ~ ~ ~ {Tags:["cf_gun"],response:1b}
+execute align xz positioned ~0.5 ~0.5 ~0.5 run summon item_display ~ ~ ~ {Tags:["cf_ammo"],item:{id:"gold_ingot",count:1,components:{"minecraft:custom_model_data":5}},Glowing:1b,glow_color_override:16727100}
